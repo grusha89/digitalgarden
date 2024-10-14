@@ -1,0 +1,1 @@
+Doplnění informací u zákazníků, kteří obejdou první krok registrace
