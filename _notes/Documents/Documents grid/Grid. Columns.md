@@ -1,0 +1,53 @@
+
+Each main folder has its own separate column settings:
+* Documents in "For approval" folder
+* Storage in "For approval" folder
+* To review
+* Comments #comments 
+	* displays the icon with comments count + tooltip on the hover "Comments: 1"
+	* if there are comments to resolve, red dot is displayed + tooltip on the hover "Comments to resolve: number"
+	* when the icon is clicked, dialog window appear when the comment can be inserted and user can be tagged. The same behavior as in [[Document detail. Comments]]
+* All documents
+* Separate document kinds
+
+Subfolders in the listed above main folders have the same column settings as their parent folder:
+* if column settings are changed in the main folder -> changes apply to all subfolders
+* if column setting are changed in the subfolder -> changes apply to the main folder and to the rest subfolders
+
+##### Column settings dialog window
+* Search bar - full text search, depends on diacritics, not case sensitive
+* Active and Inactive sides: columns can be dragged and dropped
+* Order of the columns applies to the order displayed on the grid
+* "Default settings" button. Reset the columns to the default setting. 
+	* Default setting is set in [[Customization. Appearance]]
+
+##### Sorting
+Columns that don't have sorting:
+* Accounting fields
+* Special columns:
+	* Approval status
+	* Comments
+	* Payment order status
+	* Payment status
+	* Lock status
+	* Flow status
+	* Links
+	* Main file preview
+	* Validation status
+	* Tags
+	* Custom properties
+
+##### Stick to the table feature
+It allows to certain elements to stay visible during the horizontal scroll:
+* checkboxes 
+* kebab menu
+
+##### Persistence column width settings in database
+
+* When the column width is changed it's saved in database
+* Changes are saved only on URLs without UUID:
+	* YES - https://apptest.wflow.com/org/6k-test/documents/list/kind/0
+	* NO - https://apptest.wflow.com/org/6k-test/documents/list/kind/0/66eb9131-3b26-4c5f-badb-05c82ae68107
+* Column width adjustments made by a user should be saved to the database with identifiers for the user, their organization, and the specific grid context (e.g., "Document grid," "File storage grid," or "To approval").
+* The system must load and apply the user's column width settings from the database when any of the before mentioned grid views is accessed.
+* Persistence of settings is available across sessions and devices, adhering strictly to the user's last saved preferences per grid view.
