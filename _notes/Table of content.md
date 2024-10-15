@@ -2,10 +2,162 @@
 title: Table of content
 ---
 
+
+### Navigation
+
+- [[Help]]
+- [[Account menu]]
+
+- [[Navigation side panel]]
+- [[Context menu]]
+- [[Custom views]]
+
+- [[Pagination]]
+
+
 ### Document detail
 
+unique sections by document kind
+
+- [[Document detail. Incoming Invoice]]
+- [[Document detail. Outgoing Invoice]]
+- [[Document detail. Receipts]]
+- [[Document detail. Income cash receipts]]
+- [[Document detail. Orders]]
+- [[Document detail. Contracts]]
+- [[Document detail. Others]]
+
+shared sections
+
+- [[Document detail. Tags]]
+- [[Document detail. Approval]]
 - [[Document detail. Accounting fields]]
-### Link syntax
+- [[Document detail. Payments]]
+- [[Document detail. Custom properties]]
+- [[Document detail. Linked documents]]
+
+- [[Document detail. Navigation]]
+- [[Document detail. Comments]]
+- [[Document detail. Event log]]
+- [[Document detail. Validations]]
+- [[Document detail. Actions]]
+
+- [[Document detail. Lines]]
+- [[Document detail. Files]]
+
+- [[Manual forms]]
+
+
+### Documents grid
+
+- [[Grid. Document upload]]
+- [[Grid. Internal number import]]
+- [[Grid. Exports]]
+- [[Grid. Tags]]
+- [[Grid. Filters]]
+- [[Grid. Search]]
+- [[Grid. Bulk actions]]
+- [[Grid. Single actions]]
+- [[Grid. Columns]]
+
+
+### Settings 1
+
+Marketplace (Prismatic)
+
+- [[General settings]]
+- [[Fakturoid]]
+- [[Google drive]]
+- [[iDoklad]]
+- [[Share point]]
+
+Registers administration
+
+- [[Cost objects]]
+- [[Number series]]
+- [[Organization]]
+- [[Contacts]]
+- [[Accountant]]
+- [[Items]]
+- [[Payments]]
+
+Notifications
+
+- [[Notifications]]
+
+
+### Settings 2
+
+- [[My profile page]]
+- [[Organization profile]]
+- [[Users and permissions]]
+- [[Approval paths]]
+- [[Document tyeps]]
+- [[E-mails (Collecting)]]
+
+- [[Customization. Custom properties]]
+- [[Customization. Appearance]]
+- [[Customization. Field settings for ERP]]
+- [[Customization. Validations]]
+- [[Customization. Print templates]]
+
+- [[Integrations. API accesses]]
+- [[Integrations. Extraction]]
+- [[Integrations. ERP]]
+- [[Integrations. Export]]
+- [[Integrations. Bank]]
+- [[Integrations. Signi]]
+
+- [[Workflow automations]]
+
+
+### Storage
+
+- [[Storage. Navigation]]
+- [[Storage. The grid]]
+- [[Storage. The file detail]]
+
+
+### Organization management
+
+- [[Navigation]]
+
+- [[Account settings]]
+- [[Administrators]]
+- [[Organization]]
+- [[API clients]]
+- [[Rossum]]
+
+
+### Onboarding
+
+- [[New customer registration]]
+- [[Demo organization. Content]]
+
+
+### Other
+
+- [[ARES]]
+- [[Dashboard]]
+- [[Error notifications]]
+- [[ISDOC]]
+- [[Legislations]]
+- [[Not VAT payer organizations]]
+- [[Pairing]]
+- [[Recycle Bin]]
+- [[SK legislation]]
+
+
+### Rossum integration
+
+### Dativery integration
+
+- [[Pohoda]]
+- [[Abra Flex]]
+
+
+
+<!-- ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
 
@@ -123,4 +275,4 @@ This digital garden template is free, open-source, and [available on GitHub here
 
 The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
-Go forth, have fun, and learn new something every day! ✌️
+Go forth, have fun, and learn new something every day! ✌️ -->
