@@ -7,11 +7,9 @@ title: Table of content
 
 - [[Help]]
 - [[Account menu]]
-
 - [[Navigation side panel]]
 - [[Context menu]]
 - [[Custom views]]
-
 - [[Pagination]]
 
 
@@ -35,16 +33,13 @@ shared sections
 - [[Document detail. Payments]]
 - [[Document detail. Custom properties]]
 - [[Document detail. Linked documents]]
-
 - [[Document detail. Navigation]]
 - [[Document detail. Comments]]
 - [[Document detail. Event log]]
 - [[Document detail. Validations]]
 - [[Document detail. Actions]]
-
 - [[Document detail. Lines]]
 - [[Document detail. Files]]
-
 - [[Manual forms]]
 
 
@@ -92,22 +87,19 @@ Notifications
 - [[Organization profile]]
 - [[Users and permissions]]
 - [[Approval paths]]
-- [[Document tyeps]]
+- [[Document types]]
 - [[E-mails (Collecting)]]
-
 - [[Customization. Custom properties]]
 - [[Customization. Appearance]]
 - [[Customization. Field settings for ERP]]
 - [[Customization. Validations]]
 - [[Customization. Print templates]]
-
 - [[Integrations. API accesses]]
 - [[Integrations. Extraction]]
 - [[Integrations. ERP]]
 - [[Integrations. Export]]
 - [[Integrations. Bank]]
 - [[Integrations. Signi]]
-
 - [[Workflow automations]]
 
 
