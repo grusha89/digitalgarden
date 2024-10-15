@@ -1,11 +1,10 @@
 ---
-title: Your first seed
+title: Table of content
 ---
 
-### Welcome!
+### Document detail
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
-
+- [Document detail. Accounting fields](/Document detail. Accounting fields){: .internal-link}
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
