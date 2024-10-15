@@ -4,7 +4,7 @@ title: Table of content
 
 ### Document detail
 
-- [Document detail. Accounting fields](/Document detail. Accounting fields){: .internal-link}
+- [[Document detail. Accounting fields]]
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
