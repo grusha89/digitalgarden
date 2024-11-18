@@ -12,11 +12,29 @@
 > [!important] 
 > Bulk actions are always available with the full set (single actions always depend on the context of the document). Some selected documents can be unappropriated for the action that user wants to call. In this case, the requests for these documents gonna fail, while the rest documents will go successfully under the action.
 > Detailed information about failed requests can be found here [[Error notifications]]
+> 
 
 > [!warning] Dependency between the actions and workflow automations
 > * Certain flow actions are not going to be available in single and bulk actions if the corresponding action is turned off in the workflow [[Workflow automations]]
 >
 
+
+> [!NOTE] Dynamic actions display
+> Actions are linked to specific kinds, and if a selected document's kind does not match the action, the action is hidden.
+> The check is performed not only based on the kind but also on what actions are allowed from a workflow perspective. If the selected list of documents includes one for which, for example, data extraction is disabled, then this option will also disappear from the list of actions.
+
++
+### Restrictions (without user rights):
+
+- merge - kind ISN’T SupplierOrder
+    
+- changeaccounting - kind ISN’T Contract
+    
+- documentsetasdelivered - kind IS SupplierOrder
+    
+- paypaymentrequest - kind IS IncomingInvoice OR OutgoingInvoice
+    
+- requestpayment - kind IS IncomingInvoice
 ---
 #### Approve
 
@@ -339,6 +357,7 @@ Dialog window appears:
 * "Total to be pay": amount + currency
 * "Mark as paid" - ignores payment via bank API, just marks the document as paid
 * "Pay by transfer" - if all conditions are correct, user is redirected to the third party banking page
+	* When payment is being processed the dialog window with pending info is displayed "Confirming your payment, please wait"
 
 ***Validations
 

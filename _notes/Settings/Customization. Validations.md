@@ -13,7 +13,8 @@ Detailed information about validations behavior can be found in [[Document detai
 ***Document is duplicate*** 
 * tooltip "Document duplication check by number, amount and ID/VAT ID"
 * has additional settings "Validation duplicates by fields" (Mark a document as duplicate if it matches). If several checkboxes are selected, condition will be AND:
-	* "Variable symbol and document number" checkbox
+	* "Variable symbol" checkbox
+	*  "Document number" checkbox
 	* "Partner ID or VAT number" checkbox
 	* "Total amount" checkbox
 	* by default all checkboxes are selected

@@ -100,6 +100,10 @@ Warning appears when the required field for the payment via bank API are not pre
 > * when document is not approved
 > * when due date is weekend day
 
+When the payment is processed the dialog window with pending is displayed with the text "Confirming your payment, please wait"
+
+
+
 ---
 
 

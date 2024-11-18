@@ -37,6 +37,10 @@ Columns that don't have sorting:
 	* Tags
 	* Custom properties
 
+##### Column names
+
+* Columns such as "Lock status" and "Comments" don't display its names on the grid
+
 ##### Stick to the table feature
 It allows to certain elements to stay visible during the horizontal scroll:
 * checkboxes 

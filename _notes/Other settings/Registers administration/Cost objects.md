@@ -2,6 +2,8 @@
 #CostCenters
 #Contracts 
 #Activities
+#Projects
+#BusinessCases
 #Vehicles
 #Employees
 #Registers

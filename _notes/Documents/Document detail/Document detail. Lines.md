@@ -66,7 +66,7 @@ Selector with three options (Czech legislation).
 * Exempt (0%)
 
 To see the other supported country legislations go to [[Legislations]]
-Organizations that are not VAT payers don't have VAT type column. Detailed info about not VAT payers can be found in [[Not VAT payer]]
+Organizations that are not VAT payers don't have VAT type column. Detailed info about not VAT payers can be found in [[Not VAT payer organizations]]
 
 ==**Amount
 

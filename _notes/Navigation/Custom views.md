@@ -57,7 +57,14 @@ Custom views are displayed in the order of creation time
 	* Approval path name equals Blank
 
 
-
 **Submission errors
 * Documents with a submission error status
 * Condition: Flow status equals Sending to ERP error OR Sending to extraction error
+
+
+### Custom views on the dashboard
+
+* Custom views in the navigation panel can be displayed on the Dashboard too
+* In order to display custom view on the dashboard it must have active badge
+* On dashboard it will be displayed as the selected icon and badge count
+* In Dashboard settings “Custom views” checkbox must be selected [[Dashboard]]

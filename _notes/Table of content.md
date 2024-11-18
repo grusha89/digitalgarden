@@ -116,7 +116,7 @@ Notifications
 
 - [[Account settings]]
 - [[Administrators]]
-- [[Organization]]
+- [[Organizations]]
 - [[API clients]]
 - [[Rossum]]
 
@@ -124,6 +124,7 @@ Notifications
 ### Onboarding
 
 - [[New customer registration]]
+- [[Quick organization setup]]
 - [[Demo organization. Content]]
 
 
@@ -147,7 +148,10 @@ Notifications
 - [[Pohoda]]
 - [[Abra Flex]]
 
+### Public API 
 
+
+### Mobile app
 
 <!-- ### Link syntax
 

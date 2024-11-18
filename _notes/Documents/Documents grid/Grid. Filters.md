@@ -185,6 +185,8 @@ Values to select are created in #Registers
 * Contract
 * Employee
 * Payment method
+* Project
+* Business case
 Operators: is equal, does not equal, is blank, is not blank
 
 * VAT fixed assets (VAT line 47) (Yes or No)
@@ -255,10 +257,14 @@ Operators: is equal, is equal or greater than, is greater than, is equal or less
 * Tax document number
 * Order number
 * External designation
+* Tag (has only one operator "is equal" + selector)
 * Internal number
 * Constant symbol
 * Description
 * Specific symbol
+* Comments
+* My comments (boolean)
+* Unresolved comments (boolean)
 * Document type
 * Variable symbol
 * Created by user

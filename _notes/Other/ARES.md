@@ -1,6 +1,6 @@
 #ARES
 
-ARES is used in [[Organization profile]] and in [[Contacts]] 
+ARES is used in [[Organization profile]] , in [[Contacts]] and in [[Quick organization setup]]
 
 Wflow is connected to the API of new ARES
 [Link to ARES](https://ares.gov.cz/ekonomicke-subjekty)

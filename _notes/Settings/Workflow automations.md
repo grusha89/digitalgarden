@@ -124,9 +124,20 @@ Logic:
 ##### Change the description of the document type
 
 * text input: it is impossible to save an empty description field or with spaces only
+* it’s possible to insert dynamic dates
 
+**Dynamic values can be inserted:
+
+- manually, using the following forms
+    {day} - the current day
+    {month} - the current month
+    {year} - the current year
+    {day-vat-date} - the day of UZP date of the invoice
+    {month-vat-date} - the month of UZP date of the invoice
+    {year-vat-date} - the year of UZP date of the invoice
+- from the selector clicking on {+}
 ---
-\
+
 ### Not extraction kinds
 
 * Workflows for orders and contracts are always isolated and can not be mixed with another kinds

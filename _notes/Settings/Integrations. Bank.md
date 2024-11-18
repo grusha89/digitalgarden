@@ -3,7 +3,8 @@
 * user is being redirected to the aggregator page:
 * on the redirected page user select his bank and authorizes
 * after authorization user see the message about success and user can get back to wflow or he will be redirected automatically after some time
-* in wflow user can see his bank connection
+* in wflow user can see dialog window with pending connection
+* user can see his bank is connected
 
 ###### Bank connection
 * logo of the bank
