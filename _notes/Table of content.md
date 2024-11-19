@@ -130,7 +130,7 @@ Notifications
 
 ### Other
 
-= [[Automatic pairing order with incoming invoice]]
+- [[Automatic pairing order with incoming invoice]]
 - [[Account wflow]]
 - [[ARES]]
 - [[Dashboard]]
