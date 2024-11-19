@@ -125,7 +125,7 @@ Notifications
 
 - [[New customer registration]]
 - [[Quick organization setup]]
-- [[Demo organization. Content]]
+- [[Demo organization]]
 
 
 ### Other
