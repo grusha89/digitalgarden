@@ -94,7 +94,7 @@ Buttons:
 			* tooltip - "An invoice paired with an order will take approval from the order only if the difference between the amount of the invoice and the order does not exceed the set tolerance. The tolerance is automatically converted from the organization's main currency to other currencies according to the current exchange rate"
 			* when is turned on the field appears "Tolerance for the difference between the order and invoice amounts to take approval from the order". By default the value is 0. CZK currency is displayed (even when organization's currency is different)
 		* When the "Only the order number should be taken into account when matching" toggle is turned off the field is displayed "The tolerance of difference between the amounts of orders and invoices for automatic pairing". By default the value is 0. CZK currency is displayed (even when organization's currency is different)
-		* More detailed information about pairing can be found here [[Pairing]]
+		* More detailed information about pairing can be found here [[Automatic pairing order with incoming invoice]]
 
 * Automatically transfer the last used accounting fields and cost objects to the document:
 	* tooltip - "When checked, the last used cost objects and accounting fields will be transferred to the document if the previous document had the same partner and document type. It is used primarily when no accounting fields and cost objects are extracted"

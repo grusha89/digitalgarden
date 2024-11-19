@@ -5,7 +5,7 @@ https://www.figma.com/design/9L5eiV91azH3SQMkJamfwk/Automation?node-id=1348-1166
 
 When the organization doesn’t have any workflow - the grid is empty and contains the text and “New workflow” button
 
-- DEMO workflow is only for DEMO organizations. [[Demo organization. Content]]
+- DEMO workflow is only for DEMO organizations. [[Demo organization]]
 - Toggle changes its position (Aktivni/neaktivni)
 - Description
 - The user who last edited the workflow is displayed on the card (User name)

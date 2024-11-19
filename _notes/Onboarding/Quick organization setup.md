@@ -199,15 +199,16 @@ When "Complete" is clicked user is redirected to the start page of the organizat
 #### What to check after setup
 
 1. Organization info (Name, IC, DIC, address) is filled in "Organization profile"
-2. That all selected users are added 
-3. Users have Admin roles
-4. Users are the part of the corresponding teams:
+2. Notifications: Unresolved comments and new document to approve are turned on by default
+3. That all selected users are added 
+4. Users have Admin roles
+5. Users are the part of the corresponding teams:
 	* 1. approval level
 	* 2. approval level and so on
-5. "Approval" approval path is created and contains corresponding teams on corresponding levels
-6. The documents types are created
-7. Selected ERP system is selected in ERP settings
-8. "Workflow 1" is created:
+6. "Approval" approval path is created and contains corresponding teams on corresponding levels
+7. The documents types are created
+8. Selected ERP system is selected in ERP settings
+9. "Workflow 1" is created:
 	* for Incoming Invoice, Outgoing Invoice, Receipt
 	* All main sections are turned on and have automatic mode (Extraction, Data check, Approval, Send to ERP)
 	* the order of Approval and Data corresponds to user's choice in Step 4 in Summary section

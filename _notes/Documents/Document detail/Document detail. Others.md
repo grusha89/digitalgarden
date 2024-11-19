@@ -23,7 +23,7 @@
 * "Constant symbol"
 * "Specific symbol"
 * "Order number"
-	* when is filled can trigger the [[Pairing]]
+	* when is filled can trigger the [[Automatic pairing order with incoming invoice]]
 * Internal number 
 	* can be filled via import [[Grid. Internal number import]]
 	* text input 

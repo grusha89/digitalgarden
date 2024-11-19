@@ -91,7 +91,7 @@ If you do not see the confirmation email in your inbox, please check your junk m
 "Get started with wflow" button 
 
 2. User click on"Get started with wflow" button and is redirected to the DEMO organization.
-	* The content of Demo organization is described here [[Demo organization. Content]]
+	* The content of Demo organization is described here [[Demo organization]]
 	* there is no DEMO organization for TEST stage, so it will fail
 	* but creation of DEMO organization can be tested on RC
 1. When user gets to the dashboard his new organization is available for him. It has the name of the selected customer name from the previous form

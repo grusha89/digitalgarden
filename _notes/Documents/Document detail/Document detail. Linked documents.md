@@ -22,7 +22,7 @@ Button  "+" opens dialog window "Link documents":
 ### Automatic pairing
 
 Automatic pairing works only for linking Orders with Incoming Invoices.
-How the automatic pairing works can be found in [[Pairing]]
+How the automatic pairing works can be found in [[Automatic pairing order with incoming invoice]]
 
 
 ### Linked document view

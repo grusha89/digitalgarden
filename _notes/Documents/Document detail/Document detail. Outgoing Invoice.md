@@ -32,7 +32,7 @@
 * "Constant symbol"
 * "Specific symbol"
 * "Order number"
-	* when is filled can trigger the [[Pairing]]
+	* when is filled can trigger the [[Automatic pairing order with incoming invoice]]
 * "Tax document number"
 	* text input
 * Internal number 
