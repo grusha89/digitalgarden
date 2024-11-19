@@ -130,15 +130,16 @@ Notifications
 
 ### Other
 
+= [[Automatic pairing order with incoming invoice]]
+- [[Account wflow]]
 - [[ARES]]
 - [[Dashboard]]
 - [[Error notifications]]
 - [[ISDOC]]
 - [[Legislations]]
 - [[Not VAT payer organizations]]
-- [[Pairing]]
+- [[Offline mode]]
 - [[Recycle Bin]]
-- [[SK legislation]]
 
 
 ### Rossum integration
