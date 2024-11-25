@@ -55,5 +55,7 @@ Each linked document has two buttons:
 		* calculated on the base of "Total amount without VAT" of the order minus "Total amount without VAT" of the incoming invoice minus "Paid by deposit" if such presented
 		* amount is displayed with the currency of the document 
 		* if invoice type is "Proforma" - remains to deliver is not being calculated 
+		* when equals to 0 - is not being displayed
+		* exists as the column only for order
 * From the view of the ==order document detail==:
 	* Remains to deliver

@@ -29,7 +29,9 @@
 	* text input
 * "Variable symbol"
 	* text input
+	* VAR symbol is automatically cleaned of all non-numeric characters during manual invoice issuance. 
 * "Constant symbol"
+	* max. 10 symbols
 * "Specific symbol"
 * "Order number"
 	* when is filled can trigger the [[Automatic pairing order with incoming invoice]]

@@ -59,6 +59,7 @@
 	* file name + date when the file was added
 
 
+
 > [!NOTE] The rule of the files order
 
 	* the first is always main file
@@ -110,7 +111,8 @@ Opens the dialog window "Upload files"
 * Drag and drop area
 * "Upload" button
 
-
+* It is possible to upload file when Order and manual Outgoing invoice are confirmed
+* When the document doesn't have main file - uploaded PDF is being marked automatically as the main file
 ---
 
 ##### "Send files" button
