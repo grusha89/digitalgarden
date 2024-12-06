@@ -36,3 +36,21 @@ b) **Total with VAT + VAT Rate** (when only these fields are filled in)
     **Base Amount = Total with VAT / (1 + (VAT Rate / 100))**
 - Set the unit price as the base amount.
 - Set the quantity to "1."
+
+### Lines template selector
+
+Organization has to have at least one line template in order to use this feature [[Items]]
+Changes made in Lines template are automatically synchronized with Rossum
+
+- **Disable prediction** for the dropdown.
+- The default value should be **"Not Selected"**.
+    - After selecting a template, the label "Not Selected" in the dropdown will change to **"Selected: {template name}"**.
+
+###### Functionality:
+
+1. **Automatic Overwriting of Items:**
+    - When a customer selects a template, all existing items are automatically overwritten with the items from the selected template.
+2. **For Percentage-Based Templates:**
+    - The items are calculated according to the same logic as in **wflow**.
+3. **If "Total Base" is Not Filled:**
+    - Items are added with zero amounts.

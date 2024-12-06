@@ -215,6 +215,9 @@ c. Odstranit
         - send to review
         - send to ERP
         - link documents: can link/unlink documents
+    * Card management
+	    * Card and account management. Connecting an account, adding/removing a user from the card, setting default cost objects for the card.
+	    * View cards and expenses. View cards and their transactions (is automatically selected when the previous checkbox is selected)
     - Document data
         - Headers: The user can edit the headers of the document
         - Lines: The user can edit the lines of the document (what if the user can not edit, but can create orders???)

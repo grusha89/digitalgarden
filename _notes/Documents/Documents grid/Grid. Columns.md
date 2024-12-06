@@ -55,3 +55,18 @@ It allows to certain elements to stay visible during the horizontal scroll:
 * Column width adjustments made by a user should be saved to the database with identifiers for the user, their organization, and the specific grid context (e.g., "Document grid," "File storage grid," or "To approval").
 * The system must load and apply the user's column width settings from the database when any of the before mentioned grid views is accessed.
 * Persistence of settings is available across sessions and devices, adhering strictly to the user's last saved preferences per grid view.
+
+### Unique cases
+
+##### Validation column
+
+It’s possible to have an overview of the validations from the grid.
+User must have active column “Validations” on the grid
+
+When validation is clicked the dialog window appears with the list of validation warnings and errors that document has:
+- validation cards must be in the same order as in document detail
+- it’s possible to fold and unfold validation cards
+- for duplicate validation: when user clicks on the duplicate document, document opens in the new tab
+- validation cards have button “Solve”
+    - it redirects user to the document detail and the corresponding field will be autofocused
+- when document is locked button “Solve” is not visible

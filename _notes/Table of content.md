@@ -41,6 +41,7 @@ shared sections
 - [[Document detail. Lines]]
 - [[Document detail. Files]]
 - [[Manual forms]]
+- [[Document detail. VS, KS, SS]]
 
 
 ### Documents grid
@@ -55,16 +56,24 @@ shared sections
 - [[Grid. Single actions]]
 - [[Grid. Columns]]
 
+### Employee expenses
+
+- [[Accounts and cards]]
+- [[Transaction]]
+- [[Personal expenses]]
+- [[Transaction filters]]
+
+
+### Bank
+
+- [[Bank connection]]
+- [[Account movements]]
 
 ### Settings 1
 
 Marketplace (Prismatic)
 
 - [[General settings]]
-- [[Fakturoid]]
-- [[Google drive]]
-- [[iDoklad]]
-- [[Share point]]
 
 Registers administration
 
@@ -85,6 +94,7 @@ Notifications
 
 - [[My profile page]]
 - [[Organization profile]]
+- [[Security]]
 - [[Users and permissions]]
 - [[Approval paths]]
 - [[Document types]]
@@ -144,15 +154,18 @@ Notifications
 
 ### Rossum integration
 
-### Dativery integration
+- [[Data movement from wflow to Rossum]]
+- [[Extraction and flow statuses]]
+- [[Fields from PDF that are being extracted]]
+- [[Document split]]
+- [[Rossum. Bank account validation]]
+- [[Rossum. Custom properties]]
+- [[Rossum. Dates]]
+- [[Rossum. Lines]]
+- [[Rossum. Recapitulation]]
+- [[Rossum. Validations]]
 
-- [[Pohoda]]
-- [[Abra Flex]]
 
-### Public API 
-
-
-### Mobile app
 
 <!-- ### Link syntax
 

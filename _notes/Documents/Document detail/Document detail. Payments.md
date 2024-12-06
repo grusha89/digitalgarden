@@ -43,7 +43,7 @@
 
 #### *Payment via bank API*
 
-Bank connection can be managed in [[Integrations. Bank]]
+Bank connection can be managed in [[Bank connections]]
 
 Warning appears when the required field for the payment via bank API are not presented:
 * Variable symbol
@@ -102,6 +102,19 @@ Warning appears when the required field for the payment via bank API are not pre
 
 When the payment is processed the dialog window with pending is displayed with the text "Confirming your payment, please wait"
 
+##### Transaction detail
+
+* Icon of the blue card + payment order is created + date of the transaction
+* Amount + currency
+* Created by: user name
+* IBAN (sender)
+* Input date and time
+* Due date
+* Created via
+* Paid (Single/Bulk)
+
+* IBAN (receiver)
+* Variable symbol
 
 
 ---
@@ -137,12 +150,37 @@ When there is bank integration QR payment can be reached via the dialog window o
 
 #### Payment section
 
+
+> [!NOTE] Pair the transaction
+> This selector Is visible only for users with the rights of payment management [[Users and permissions]] and the owners of the bank connection. The overview of transactions can be found in [[Account movements]]
+https://www.figma.com/file/J5SBwD5WRJG09r8FezNN8Q?embed_host=share&kind=file&node-id=53-2000&page-selector=0&t=vk0jW8OTmE1Su0Fy-1&viewer=1
+
 "Record payment" button 
 * opens dialog window
+	* "Pair the transaction" selector 
+		* placeholder "Select a transaction"
+		*  offers individual probably matched  transactions represented by:
+			* amount
+			* Partner name
+			* Variable symbol
+			* Created
+		* "Select another from the list" button
+			* opens the dialog window "Select a transaction" where the user can filter and find the transaction he needs by filters: (filters are not displayed if the corresponding field doesn't have value on the document)
+				* IBAN
+				* Variable symbol - searches for the transaction by VS of the document
+				* Total amount - searches for the transaction by amount of the document
+				* search bar: by partner name, amount and variable symbol
+			* documents are displayed in the table with the following columns:
+				* Partner name (Supplier/Customer) depending if the transaction is incoming or outgoing
+				* Total amount
+				* Currency
+				* Variable symbol
+				* Document kind
+				* Creation date
 	* "Payment date" date picker
 	* "Amount" number input - automatically filled with the document's total amount
 	* "Record payment" button
-* marks the document as fully paid
+* marks the document as fully or according to the amount of the paired transaction paid
 * pay order is created:
 	* status "Paid"
 	* payment date

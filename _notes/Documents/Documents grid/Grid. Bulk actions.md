@@ -327,7 +327,7 @@ When document is marked for payment:
 > [!important] Bulk payment
 > Bulk payment considers payment via bank API. Not only documents that are marked for payment can be paid.
 
-Detailed information how to connect bank account to wflow and how to manage bank connection can be found in [[Integrations. Bank]]
+Detailed information how to connect bank account to wflow and how to manage bank connection can be found in [[Bank connections]]
 
 Supported banks:
 - Ceska sporitelna

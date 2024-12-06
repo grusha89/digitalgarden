@@ -14,7 +14,7 @@
 * Button “Save”
 	- active when at least one change was made
 
-#### Require a form of verification
+#### Require a form of verification: Business (blue chip)
 
 - Description “Set the login rules. Users logged in by other means will not have access to the organization’s data
 - contains 4 radio buttons:
@@ -29,3 +29,15 @@
 - contains 2 radio buttons:
     - Enable login
     - Prevent login
+
+
+---
+
+### Feature flag
+
+Section “Security” will be always available in navigation panel whether feature flag is turned on or turned off
+
+When the feature flag is turned off:
+- radio buttons are read only
+- Not required is selected
+- tooltip on hover appears “This function is available only with Business plan”

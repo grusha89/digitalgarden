@@ -106,6 +106,12 @@ Section consists of:
 1.  When the document is sent to counterparties each of the person receives the email invitation to Signi
 2. Each person signs or approves (depending on the Signi role that was assigned to him)
 
+#### Signi statuses
+ * Contract not sent (grey icon)
+ * Contract has been sent (orange icon)
+ * Contract is signed (blue icon)
+ * Contract is expired (red icon):
+	 * expiration period can be edited ion Signi page for the current organization. By default is 7 days
 ### Changes in document detail after the document is signed
 
 * Signi status changes into "Contract signed"

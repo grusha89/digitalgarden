@@ -49,7 +49,7 @@ Logic:
 - Dynamic approval path is not displayed in the list
 - When plus button is clicked, dialog window of approval path creation appears
 - Created approval path via plus button, immediately appear in the selector
-- Conditions, operators and values [Sections, conditions, operators](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)
+- Conditions, operators and values are in the table below
 - Buttons “Bin” :  removes added condition
 - Button “Add condition”
 - Button “Or” adds further conditions + by default flow status
@@ -68,7 +68,7 @@ Logic:
 - When the chip “Automatic” is on, “Advanced settings automatizations” appears
 - When “Advanced settings automatizations” is clicked, the dialog window appears
 - Corresponding Flow status is by default and not editable
-- Conditions, operators and values [Sections, conditions, operators](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)
+- Conditions, operators and values  are in the table below
 
 ---
 
@@ -93,7 +93,7 @@ Logic:
 - If the workflow has the mix of document types - how accounting rules and payment methods are displayed? PRODUCT WILL DECIDE
 - One register can be used multiple times
 - the second selection of the accounting field appears automatically when the first input is filled. Can be saved as empty
-- All conditions can be used for this section [Sections, conditions, operators](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)
+- All conditions can be used for this section are in the table below
 - Button “recycle bin” removes the corresponding condition
 - Button “recycle bin”: when there are several conditions it will remove the corresponding one, if there is only one condition - it will empty inputs
 - Button “Or” add another condition
@@ -103,23 +103,23 @@ Logic:
 
 - Selector “Document type”: all types even from other kinds are displayed but action will work only for the document types within one kind (this principle will be in the description to this section)
 - document type selector, full-text search, is not case sensitive
-- All conditions can be checked in this section [](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)[https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8](https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8)
+- All conditions can be checked in this section are in the table below
 
 ##### Replace the lines from the template
 
 - Template selector: full text search, is not case sensitive
-- all conditions can be used in this section [](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)[https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8](https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8)
+- all conditions can be used in this section are in the table below
 
 ##### Assign the tag
 
 - tag selector: fulltext search, is not case sensitive
-- all conditions can be used in this section [](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)[https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8](https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8)
+- all conditions can be used in this section are in the table below
 
 ##### Set the access to the document
 
 - search bar for users and teams
 - search by email, user name, team name, team description
-- all conditions can be used in this section [](https://www.notion.so/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8?pvs=21)[https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8](https://www.notion.so/wflow/Sections-conditions-operators-6ebd444bcf1a4550b1d1e64d94c826b8)
+- all conditions can be used in this section are in the table below
 
 ##### Change the description of the document type
 
@@ -158,3 +158,33 @@ PPD, Others workflow:
 1. New document 
 2. Data fill
 3. ERP section
+
+
+---
+
+### The table of conditions
+|Sections|Conditions|Operators|Value|
+|---|---|---|---|
+|Extraction, Approval, Review, ERP|Document kind|equal, not equal, in the list, not in the list|selector|
+|Extraction, Approval, Review, ERP|Document type|equal, not equal, in the list, not in the list|selector|
+|Extraction, Approval, Review, ERP|Document series|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Extraction, Approval, Review, ERP|Contract|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Extraction, Approval, Review, ERP|Cost Center|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Extraction, Approval, Review, ERP|Activity|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Extraction, Approval, Review, ERP|Sender’s email|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Approval, Review, ERP|Currency|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Approval, Review, ERP|Partner|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Approval, Review, ERP|Partner’s DIC|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Approval, Review, ERP|Partner’s IC|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Approval, Review, ERP|Partner’s Local VAT|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Approval, Review, ERP|Total amount|equal, not equal, equal or more than, more than, equal or less than, less than, between||
+|Approval, Review, ERP|Links count|equal, not equal, equal or more than, more than, equal or less than, less than, between||
+|Approval, Review, ERP|Data source|equal, not equal, in the list, not in the list, filled, not filled|selector (Rossum, isdoc, eKASA, public API)|
+|Extraction, Approval, Review, ERP|Created by user|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Extraction, Review, ERP? Approval|Order number|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Extraction, Approval, Review, ERP|Accounting rule|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|Extraction, Approval, Review, ERP|Description|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
+|Extraction, Approval, Review, ERP|Validation warnings|contains, does not contain||
+|Extraction, Approval, Review, ERP|Validation error|contains, does not contain||
+|Extraction, Approval, Review, ERP|Tag|equal, not equal, in the list, not in the list, filled, not filled|selector|
+|For the section that goes after Approval section|Flow status|equal, not equal, in the list, not in the list|selector (New document, Filled, Extracted, Reviewed)|

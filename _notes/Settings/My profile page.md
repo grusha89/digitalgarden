@@ -27,6 +27,7 @@ Required selectors:
 	* Spanish
 	* Romanian
 	* Ukrainian
+	* Vietnamese
 Buttons:
 * Save (is not active unless changes are made)
 * Cancel (is not visible unless changes are made)
