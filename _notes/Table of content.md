@@ -66,7 +66,7 @@ shared sections
 
 ### Bank
 
-- [[Bank connection]]
+- [[Bank connections]]
 - [[Account movements]]
 
 ### Settings 1
