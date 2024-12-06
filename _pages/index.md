@@ -5,7 +5,8 @@ id: home
 permalink: /
 ---
  
-# wflow Wiki ![alt text](image-1.png)
+# Welcome to wflow Wiki 
+Only for internal use!!!
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   Take a look at <span style="font-weight: bold">[[Table of content]]</span> to get started on your exploration.
