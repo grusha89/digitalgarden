@@ -164,6 +164,7 @@ Notifications
 - [[Rossum. Lines]]
 - [[Rossum. Recapitulation]]
 - [[Rossum. Validations]]
+- [[Automatic sorting to the organization]]
 
 
 
