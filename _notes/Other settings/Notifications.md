@@ -20,3 +20,17 @@
 	Frequency: once a day.
 * **New comments on documents or files within the approval path**
 	Frequency: once a day.
+
+
+---
+
+### Email body
+
+User receives all active notifications for all organizations in one email
+
+* Notifications are separated by organizations:
+	* Organization name
+	* "You have documents in your organization that need your attention:"
+	* Notification name
+	* Call to action + link 
+	* Button "Go to organization"

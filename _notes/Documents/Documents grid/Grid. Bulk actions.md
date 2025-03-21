@@ -353,6 +353,7 @@ Dialog window appears:
 * Variable symbol
 * Constant symbol
 * Specific symbol
+* "Note" text input with the placeholder "Write the note for receiver"
 * Recycle bin
 * "Total to be pay": amount + currency
 * "Mark as paid" - ignores payment via bank API, just marks the document as paid

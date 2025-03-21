@@ -74,12 +74,12 @@ Buttons:
 ##### "Documents settings" section (toggles)
 
 *  Description "Advanced document behavior settings"
-* 
+
 * "Allow approval on items":
 	* tooltip - "Approvers of the document can also comment on specific items"
 	* Items on the lines in document detail can be approved [[Items approval]]
 	
-* "Automatically sort documents into organizations":
+* "Automatically sort documents into organizations": detailed info [[Automatic sorting to the organization]]
 	* tooltip - "Documents can be automatically sorted based on the customer's ID within all organizations that fall under one customer account. The organization must have this option active. In the profile of the organization, you have filled in your ID number"
 	
 * Automatically pairing incoming invoices with orders

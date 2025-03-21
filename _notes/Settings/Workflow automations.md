@@ -53,6 +53,9 @@ Logic:
 - Buttons “Bin” :  removes added condition
 - Button “Add condition”
 - Button “Or” adds further conditions + by default flow status
+- Kebab menu:
+	- Copy (copies the whole bunch of the conditions)
+	- Remove the bunch of conditions
 - The button “Assign approval path” adds settings for another approval path. It is possible to select the same approval path
 - Button “Cancel”
 - Button “Use”

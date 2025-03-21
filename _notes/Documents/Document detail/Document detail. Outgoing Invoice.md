@@ -143,8 +143,9 @@ Manual
 
 
 > [!important] Revise
-> * Manual outgoing invoice can be revised at any flow level and to be confirmed again. When it's revised it gets the status "Not filled" again and the flow can be processed from the start
+> * Manual outgoing invoice can be revised at any flow level and to be confirmed again unless it is not ERP status. When it's revised it gets the status "Not filled" again and the flow can be processed from the start
 > * Button "Revise" is available when document is not locked as well as button "Generate PDF"
+> * when the flow status is ERP status then Revise button is hidden and user can edit the document with standard way
 
 
 

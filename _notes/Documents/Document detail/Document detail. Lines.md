@@ -13,6 +13,7 @@ The height of the lines section is adjustable by dragging the section header
 
 ##### Lines columns
 
+The widths of the columns is memorized within the kind (mobile version - the width is by defult)
 Columns settings for Lines contains the accounting fields columns:
 
 

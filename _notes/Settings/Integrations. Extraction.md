@@ -33,6 +33,8 @@ Set options for extracting received invoices
         - when the toggle is turned on Rossum extracts the lines
     - Toggle “Predicate billing codes”
         - when the toggle is turned on Rossum predicts the accounting registers
+    * Toggle "Take partner name and address from public database"
+	    * based on DIC then on IC 
     - “Add an optional field” selector [[Customization. Custom properties]] 
         - the list of all optional fields is filtered by document kind
         - a selected custom property is added as the chip
@@ -58,6 +60,8 @@ Set options for extracting issued invoices
         - when the toggle is turned on Rossum extracts the lines
     - Toggle “Predicate billing codes”
         - when the toggle is turned on Rossum predicts the accounting registers
+	* Toggle "Take partner name and address from public database"
+	    * based on DIC then on IC 
     - “Add an optional field” selector
         - the list of all optional fields is filtered by document kind
         - a selected custom property is added as the chip
@@ -86,6 +90,8 @@ Set receipt mining options
         - when the toggle is turned on Rossum extracts the lines
     - Toggle “Predicate billing codes”
         - when the toggle is turned on Rossum predicts the accounting registers
+    * Toggle "Take partner name and address from public database"
+	    * based on DIC then on IC 
     - “Add an optional field” selector
         - the list of all optional fields is filtered by document kind
         - a selected custom property is added as the chip

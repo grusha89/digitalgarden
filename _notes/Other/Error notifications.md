@@ -1,3 +1,6 @@
+
+### General
+
 Tips how to simulate the error notifications:
 
 Using different tabs will help as they're not synchronized in automatic update:
@@ -30,3 +33,8 @@ For example, let's test "document-is-locked":
 | file-in-approval            | This operation cannot be done while the approval process is in progress. | Tuto operaci nelze v probíhajícím schvalovacím procesu provést.      | can not be tested                                                                                                                         |
 | update-file-in-approval     | Cannot update file while the approval process is in progress.            | Během probíhajícího schvalovacího procesu nelze soubor aktualizovat. | can not be tested                                                                                                                         |
 | folder-already-exists       | Folder already exists.                                                   | Složka již existuje.                                                 | When the folder with the duplicate name is being created                                                                                  |
+
+### Feature flag notifications
+
+When user tries to do the action that is not allowed according to the feature flag, the error notification appears
+" This functionality is not allowed for your plan"

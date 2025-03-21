@@ -111,8 +111,9 @@ Displays the organization info that is filled in [[Organization profile]]
 9. Delivered
 
 > [!important] Revise
-> * Order can be revised at any flow level (beside "fully Delivered" status) and to be confirmed again. When it's revised it gets the status "Not filled" again and the flow can be processed from the start
+> * Order can be revised at any flow level (beside "fully Delivered" status) and to be confirmed again unless it is not ERP status. When it's revised it gets the status "Not filled" again and the flow can be processed from the start
 > * Button "Revise" is available when document is not locked as well as button "Generate PDF"
+> * when the flow status is ERP status then Revise button is hidden and user can edit the document with standard way
 
 > [!important] Dependency on automation workflow
 > * The presence of certain flow statuses and corresponding actions depends on automation workflow settings [[Workflow automations]]

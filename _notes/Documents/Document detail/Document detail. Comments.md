@@ -35,3 +35,10 @@ Limit is 350 symbols:
 	* in document detail
 	* in approval process
 	* on the grid
+
+### Edit and remove comments
+
+Each posted comment has a kebab menu that appears on hover:
+* Edit - when the comment is edited it will have note "modified", clicking on "modified"
+ opens a previous version of the comment
+* Remove - instead of the comment "removed" note appears, clicking on "removed" reveals the comment that was deleted

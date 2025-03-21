@@ -64,6 +64,15 @@
 - Name of the trader
 - Date and time of the transaction
 - Transaction status
+	- is taken from real bank transaction status
+	- when paired with the receipt it has status "Reserved"
+	- when real bank transaction is processed status chnages into "Accounted"
+* Paired document section
+	* button "Pair the document"
+		* opens the dialog window to pair Incoming Invoice or Receipt
+		* paired document will contain paired transaction and payment status will be "Paid"
+		* paired document will get the same accounting fields from the transaction
+		* it is possible to comment on the paired document, open document in the new tab and remove the document from the transaction
 - Spent amount
 - last 4 digits of the card
 

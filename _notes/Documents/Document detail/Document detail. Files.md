@@ -69,7 +69,8 @@
 
 ---
 
-##### Action buttons
+##### Action buttons (Single)
+
 
 Each file has the same set of action buttons
 
@@ -92,6 +93,17 @@ Each file has the same set of action buttons
 
 ---
 
+##### Action buttons (bulk)
+
+There is a checkbox that selects all the files and the bulk actions appears:
+1. Download
+	* each file will be downloaded separately without archivation
+2. Send via email
+	* sending email dialog window appears
+3. Delete
+	* confirmation message appears
+
+---
 
 ##### "Add files" button
 ==is not available when the document is locked==

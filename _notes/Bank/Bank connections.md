@@ -13,6 +13,9 @@
 * name of the account - account number + bank code 
 * each account has toggle activation toggle.
 * button ***"Set as default"***. User can select the default account - the default account gonna be selected automatically during the payment. 
+* "Access to the account movements" https://www.figma.com/design/J5SBwD5WRJG09r8FezNN8Q/p%C3%A1rov%C3%A1n%C3%AD-transakc%C3%AD?node-id=705-5111
+	* tooltip with the description
+	* button that opens the dialog window to add users. teams, everyone (Admin user doesn't have access to the transaction by default, he must be mentioned in this part)
 * connection owner: avatar + user name + email
 * connection status: Connected or Connection error
 * Kebab menu: contains only one action "Disconnect"
