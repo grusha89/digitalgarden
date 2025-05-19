@@ -54,3 +54,44 @@ Changes made in Lines template are automatically synchronized with Rossum
     - The items are calculated according to the same logic as in **wflow**.
 3. **If "Total Base" is Not Filled:**
     - Items are added with zero amounts.
+
+
+
+---
+### Automatic Lines calculation
+
+##### Automatic Calculation During Export
+
+The goal is to have as many cases as possible with pre-calculated amounts for "Unit Price (Excl. VAT)" and "Total Base Amount."
+
+- Calculation priority:
+    1. **Priority 1:** Quantity, Unit Price (Excl. VAT), VAT Rate
+    2. **Priority 2:** Quantity, Total Base Amount, VAT Rate
+    3. **Priority 3:** Quantity, Total Amount (Incl. VAT), VAT Rate
+- Perform calculations **after validation** in ROSSUM.
+- If quantity is missing, assume it as "1."
+
+##### Manual Calculation in ROSSUM
+
+- Add a custom button **"Recalculate Item Amounts"** in the ROSSUM scheme as per the documentation:
+    
+    [Rossum Extensions Overview](https://developers.rossum.ai/docs/extensions-overview)
+    
+- Add button “**Recalculate Item Amounts" after Line items (before lines template)**
+    
+- Upon clicking the button, calculations should be performed based on:
+    
+    1. **Priority 1:** Quantity, Unit Price (Excl. VAT), VAT Rate
+    2. **Priority 2:** Quantity, Total Base Amount, VAT Rate
+    3. **Priority 3:** Quantity, Total Amount (Incl. VAT), VAT Rate
+- **Recalculate all relevant fields:**
+    
+    - Quantity
+    - Unit Price
+    - Base Amount (Excl. VAT)
+    - VAT Rate
+    - Total Amount (Incl. VAT)
+    - VAT Amount
+- **Only process items without validation errors** on the respective row.
+    
+- **Round all values to four decimal places.**

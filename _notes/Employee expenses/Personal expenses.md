@@ -92,6 +92,8 @@
 _**If there is no uploaded file**_
 
 - button “Browse the device”
+- button "Copy email" [[Transaction and document pairing]]
+	-  there is green notification when the email is copied
 - message “or upload the file using drag and drop + formats (maximal size)
 - red box:
     - Don’t you have the document for transaction? Let others know that you will not attach it
@@ -196,8 +198,10 @@ _**“Settings” section**_
     - Select the document type where receipts and incoming invoices are going to be created according to the expenses of the current card
     - The “Receipts” selector, is required. Placeholder “Select document type”
         - Only Receipt types are displayed. There is a full-text search
+        - Email to upload document + copy button [[Transaction and document pairing]]
     - The “Incoming invoices” selector, is required. Placeholder “Select document type”
         - Only Incoming Invoice types are displayed. There is a full-text search
+        - Email to upload document + copy button [[Transaction and document pairing]]
 - **Default billing**
     - Select default accountings for expenses paid with the current card
     - The “Cost Center” selector, is not required. Placeholder “Select Cost Center”

@@ -16,7 +16,7 @@ Buttons:
 	* Romanian
 	* Ukrainian
 	* Vietnamese
-* "State of VAT registration" selector. Can be preselected in [[Organizations]] of Admin page or during New customer [[Onboarding]]. Countries are displayed in original languages.
+* "State of VAT registration" selector. Can be preselected in [[wflow.com WIKI/Organization management/Organizations]] of Admin page or during New customer [[Onboarding]]. Countries are displayed in original languages.
 	* Austria
 	* Belgium
 	* Czech Republic

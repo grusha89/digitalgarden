@@ -1,7 +1,7 @@
 
 Quick organization setup launches when user opens the brand new organization:
 1. when organization is created after new customer onboarding
-2. when Admin created new organization via [[Organizations]]
+2. when Admin created new organization via [[wflow.com WIKI/Organization management/Organizations]]
 
 ### Setup process
 

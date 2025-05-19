@@ -39,6 +39,8 @@ It is possible to send ISDOC to review as other extracting documents:
 * rounding amount
 * total amount
 * lines
+* custom properties
+	* Process according to the identifier of the optional field (referred to below as "properties") – if the field is not defined in the organization, the value obtained from the ISDOC will be ignored.
 
 ### ISDOC and Credit Note (dobropis)
 

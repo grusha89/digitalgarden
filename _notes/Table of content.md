@@ -62,7 +62,7 @@ shared sections
 - [[Transaction]]
 - [[Personal expenses]]
 - [[Transaction filters]]
-
+- [[Transaction and document pairing]]
 
 ### Bank
 
@@ -150,6 +150,7 @@ Notifications
 - [[Not VAT payer organizations]]
 - [[Offline mode]]
 - [[Recycle Bin]]
+- [[Inputs]]
 
 
 ### Rossum integration

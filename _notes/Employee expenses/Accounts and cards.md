@@ -153,8 +153,10 @@ _**“Settings” section**_
     - Select the document type where receipts and incoming invoices are going to be created according to the expenses of the current card
     - The “Receipts” selector, is required. Placeholder “Select document type”
         - Only Receipt types are displayed. There is a full-text search
+        - Email to upload document + copy button [[Transaction and document pairing]]
     - The “Incoming invoices” selector, is required. Placeholder “Select document type”
         - Only Incoming Invoice types are displayed. There is a full-text search
+        - Email to upload document + copy button
 - **Default billing**
     - Select default accountings for expenses paid with the current card
     - The “Cost Center” selector, is not required. Placeholder “Select Cost Center”

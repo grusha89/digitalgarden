@@ -1,4 +1,4 @@
-This menu is placed on the right upper corner and is available throughout the whole application 
+This menu is placed right above the User account menu in the context navigation 
 To call the menu click on the icon with the image of the question mark
 
 When menu is opened:

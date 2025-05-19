@@ -118,6 +118,8 @@ Overview of all expenses of the employees that were made via connected cards
 _**If there is no uploaded file**_
 
 - button “Browse the device”
+- button "Copy email" [[Transaction and document pairing]]
+	- there is green notification when the email is copied
 - message “or upload the file using drag and drop + formats (maximal size)
 - red box:
     - Don’t you have the document for transaction? Let others know that you will not attach it

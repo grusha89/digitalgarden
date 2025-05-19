@@ -120,6 +120,26 @@ Example:
 **"Amounts in the summary do not match the VAT base. Difference: 150.00."**
 
 ---
+### Validation tolerance
+
+Validations are always displayed, even in cases of small differences in the amount.
+
+**Target State:**
+
+Small discrepancies will not be shown as warnings but only as information (blue "i" icon). A tolerance of up to 0.3 CZK will be applied.
+
+**Description:**
+
+- Applies only to invoices in CZK, EUR, USD, PLN, and HUF (fixed according to the exchange rate on the development date).
+- No changes for other currencies.
+- Applies only to validations that display an amount difference.
+- If the difference is less than 0.3 CZK, the same message should be displayed but as an informational notification (blue "i") in ROSSUM.
+
+Amounts for other currencies
+
+{ "CZK": 0.3, "EUR": 0.04, "PLN": 0.051, "USD": 0.044, "HUF": 4.83 }
+
+---
 
 ### Summary Table for Validation Logic
 

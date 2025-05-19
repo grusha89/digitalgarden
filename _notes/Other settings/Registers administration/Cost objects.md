@@ -34,6 +34,11 @@
 
 **Search bar
 * full text search by code and description, ignores diacritics
+* When searching in the register, prioritize showing exact matches (from the beginning). Display priority:
+
+1. Exact match
+2. Starts with
+3. Full text
 
 **Columns:
 * Code. Has sorting

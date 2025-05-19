@@ -23,3 +23,5 @@ Folders that don't have context menu:
 ##### Edit and delete
 * available only for custom views. Detailed information can be found in [[Custom views]]
 
+##### Add to bookmark
+* add the folder to the "Bookmark" section for the quick access
