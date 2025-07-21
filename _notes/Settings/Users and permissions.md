@@ -228,7 +228,6 @@ c. Odstranit
         - processing payments: can pay, mark for payment, bulk payments, set bank connections, can remove processed payment
         - mark for payment
     - Other
-        - exporting data: can export data, bulk download, can edit export settings, can export registers
         - sending contracts to Signi: can send to Signi, can edit counterparties
         - signature and stamp: can sign documents and use a timestamp
     - Registers:
@@ -239,6 +238,9 @@ c. Odstranit
     - Settings:
         - Organization profile: access to the organization profile
         - Storage: access to the storage
+    * wflow BI:
+	    * Access to wflow BI: Access to wflow BI over the organization (includes all data of the entire organization without limitation by user access). (ON FEATURE FLAG)
+	    * Data export: Data export, bulk data download, management of export templates
 - The button “Save”: is not active when changes are not made
 - confirmation message about unsaved changes appears if the user closes the window without hitting the button “Save”
 
@@ -448,3 +450,35 @@ The same user can be in different roles. It means that all rights from different
     - if a user doesn’t have any access to the document type, but he is a part of the approval path that gonna be assigned to the document → user is not able to see the document, and will not receive email notification
     -
 
+### Export and Import
+
+It is possible to export and import Users, Roles and Teams into excel table
+Excel contains three tabs for Users, Roles, Teams
+
+Columns (Users):
+* Login
+* HasFullAccess
+* Roles
+* Teams
+
+Columns (Roles):
+* Name
+* Description
+* Rights
+
+Columns (Teams)
+* Name
+* Description
+
+Import logic:
+* users, roles and teams that are not in the import file -> don't go under the changes
+* users, roles and teams that are new in the import file and absent in the organization -> will be created in organization
+* users, roles, teams are going to be updated by:
+	* Users (e-mails)
+	* Role (role name)
+	* Team (team name)
+
+During the export -> downloading file process starts
+During the import -> import dialog window appears
+
+https://www.figma.com/file/h9FdepwVIOJL0lqOa6MY10?kind=file&node-id=6-5222&t=YTmnXRjowWf5L3Uj-4

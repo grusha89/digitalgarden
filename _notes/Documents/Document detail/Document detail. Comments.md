@@ -29,8 +29,8 @@ Each message displays time and the name of user who wrote the comment (user can 
 
 ### Comments limits
 
-Limit is 350 symbols:
-* when the limit is reached (more than 350 symbols) button "Send" becomes inactive and it's impossible to send the comment
+Limit is 500 symbols:
+* when the limit is reached (more than 500 symbols) button "Send" becomes inactive and it's impossible to send the comment
 * works for all kinds of the comments
 	* in document detail
 	* in approval process

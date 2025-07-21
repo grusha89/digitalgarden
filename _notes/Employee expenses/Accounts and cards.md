@@ -105,9 +105,10 @@ _**When the connection is expired**_
 - All accounts disappear.
 - Instead, the red box is displayed:
     - Connection with your bank account has expired. To save the functionality access to the bank account must be confirmed again via login to the internet banking
-    - “Cancel the connnection” button
+    - “Cancel the connection” button
     - “Update the connection” button
 - cards are still displayed
+- error message appears "Something gone wrong. Connection of your account with the bank has been expired"
 
 _**When the account is disconnected (but was connected before)**_
 

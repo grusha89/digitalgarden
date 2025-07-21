@@ -37,6 +37,7 @@ Accounting fields are mostly selectors. The selector behavior:
 * search is not case sensitive and ignores diacritics
 * when value is not found "No data" is displayed
 * if not valid data was input, validation appears "Unknown value"
+* selected value is always displayed on the first place with the blue tick
 
 ---
 

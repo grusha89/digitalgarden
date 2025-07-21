@@ -73,6 +73,8 @@
 		* paired document will contain paired transaction and payment status will be "Paid"
 		* paired document will get the same accounting fields from the transaction
 		* it is possible to comment on the paired document, open document in the new tab and remove the document from the transaction
+		* Locked documents are available in the drop down list.
+			* when the locked document is selected, the warning is displayed "Document is locked. Selected cost objects are not gonna be saved"
 - Spent amount
 - last 4 digits of the card
 
@@ -105,6 +107,16 @@ _**If there is no uploaded file**_
     - Add a document to this transaction. Document upload is obligatory
 
 
+### When transaction is "Canceled"
+
+A. When transaction doesn't have paired document yet
+* button "Upload document" is not displayed on the grid and in transaction detail and in kebab menu
+* All fields in the transaction detail are disabled
+* Orange message "Canceled transaction" with description "It's impossible to upload document to the canceled transaction"
+* Buttons "Save" and "Pair with the document" are disabled
+B. When transaction has paired document
+* Transaction behaves as usual (exception -> pairing behavior)
+* When document is removed via detail -> behavior is like in A scenario, button "Save" only removes document but don't create new document
 ---
 
 

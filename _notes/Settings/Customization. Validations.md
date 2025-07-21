@@ -8,7 +8,7 @@ Each validation has the selector where user can choose the type of the validatio
 * Errors will not allow to send document to ERP and not allow some levels to approve the document. Conditions for this behavior can be found in [[Approval paths]] and in [[Approval process]]  #approvalWithErrors
 
 ##### Description of each validation
-Detailed information about validations behavior can be found in [[Document detail. Incoming Invoice]]
+Detailed information about validations behavior can be found in [[Document detail. Validations]]
 
 ***Document is duplicate*** 
 * tooltip "Document duplication check by number, amount and ID/VAT ID"
@@ -48,7 +48,16 @@ Detailed information about validations behavior can be found in [[Document detai
 ***Line item amounts do not match
 * The basis amount on the item does not match (Quantity x Unit Price)
 
+***The account number does not match the partner record.
+* tooltip "The account number on the document doesn't match any account number on the partner record"
 
+
+***No partner selected from the dialer
+* tooltip "The partner is not selected from the partner list"
+* this validation is displayed when the toggle "Automatically match documents to a partner record" is true on [[Organization profile]]
+
+***IBAN and account number do not match
+* validation is available only for CZ legislation
 ##### Validations according to the document kinds
 
 |                                                       | Inc | Outg | Rcpt | Incoming cash receipt | Order | Contract | Other |
@@ -63,3 +72,5 @@ Detailed information about validations behavior can be found in [[Document detai
 | The date is out of range                              | +   | +    | +    | +                     | +     | +        | +     |
 | The document does not belong to your organization     | +   |      |      |                       |       |          |       |
 | Line item amounts do not match                        | +   | +    | +    |                       |       |          |       |
+| No partner selected from the dialer                   | +   | +    | +    | +                     | +     | +        | +     |
+| IBAN and account number do not match                  | +   | +    |      |                       | +     | +        | +     |

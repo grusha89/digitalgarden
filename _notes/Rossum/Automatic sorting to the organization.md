@@ -13,7 +13,8 @@ How automatic sorting works:
 2. During the extraction Rossum recognizes that document doesn't belong to the current organization and sort this document to the correct one
 3. Document disappears from the initial organization
 4. Extracted document appears in the correct organization and in event log user can see that it was sorted from the previous org.
-5. User can work with sorted document (send it to review for example)
+5. Document is extracted again in the target organization
+6. User can work with sorted document (send it to review for example)
 
 
 

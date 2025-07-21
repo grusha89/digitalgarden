@@ -99,6 +99,7 @@ Warning appears when the required field for the payment via bank API are not pre
 > * creditor name 35 max charachters- **RecipientName**
 > * when document is not approved
 > * when due date is weekend day
+> * IBAN and account number do not match
 
 When the payment is processed the dialog window with pending is displayed with the text "Confirming your payment, please wait"
 

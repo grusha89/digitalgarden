@@ -79,3 +79,49 @@ Validation card:
 * highlights the total amount field of the line + tooltip
 * button "Solve" created autofocus on the total amount of the line
 
+### No partner selected from the dialer
+
+* when the partner is extracted incorrectly
+* when the filled partner is new
+* match is by (priority order):
+	* Id
+	* VAT ID
+	* account number/IBAN
+	* Partner name 
+* highlights the partner name
+* button "Solve" creates autofocus on the partner name
+
+### The account number does not match the partner record
+
+* The account number on the document does not match any account number on the partner record.
+* appears when both account number and bank code are filled in
+* Fields "account number" and "bank code" are highlighted
+* When button "Solve" is clicked - "account number" filed is focused
+
+### IBAN and account number do not match
+
+* appears when both account number and IBAN are filled
+* Field "IBAN" is highlighted
+* When button "Solve" is clicked - "IBAN" field is focused
+### Validation section and Rossum
+
+* User can open validation section when Rossum is opened:
+	* validation section is read only
+	* validation section has title "Review mode" and description "During review validations are not being updated. Validation will be updated right after document is reviewed"
+
+### Hiding validations
+
+* Each validation card has button "Hide validation"
+* When validation is hidden:
+	* it doesn't reflect in validation status icon
+	* it doesn't restrict the export to ERP
+	* time and user who hid the validation are displayed on validation card
+	* validation card becomes grey
+	* button "Unhide the validation" appears
+* Users with the permission "document update" can hide the validation
+* When user hides one validation of one type the rest related validations will be hidden automatically (for example when user hides validation for "Cost Center" other validations for accounting fields will be hidden as well)
+
+### Display order of validation cards:
+1. Errors
+2. Warnings
+3. Hidden validations

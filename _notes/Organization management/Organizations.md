@@ -56,11 +56,20 @@ New toggle appears
 
 ### Copy organization
 
-Created organization is the identical copy of the original one (only settings, not documents)
+User can select one of two options that are displayed as the radio buttons:
+1. Copy settings (Creates a copy of the organization with the same organization settings (users, approval paths, and more))
+2. Copy settings and data (Duplicates the organization, including the organization's settings and data (documents, files in storage, code lists, and more).)
 
 * Organization name is copied (can be the same is not required to be unique)
-* Domain is empty (must be unique
+* Domain is empty (must be unique)
+	* is auto filled when user inputs new organization name
 * Legislation is read only
 * Pricing plan can be changed
+	* plan "mini" is not selectable
 * Create backup data can be edited
-* "Add an administrator" is not displayed anymore
+
+Warning dialog:
+- The **warning dialog** that appears when attempting to close the window during the copying process has different text and red color than usual warning dialog:
+	- Copy is not finished (Closing the dialog will stop the copying)  
+- The **confirmation dialog** (displayed when trying to close during copying) should **automatically close** if the copying process finishes **before** the user makes a choice (clicks anything).
+- During the copying process, **all input fields** must be **disabled**.

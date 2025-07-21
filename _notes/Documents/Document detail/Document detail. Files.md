@@ -130,6 +130,12 @@ Opens the dialog window "Upload files"
 ##### "Send files" button
 
 Dialog window "Send e-mail" appears:
+* "Send from email" - selector:
+	* it is possible to select organization's email or current user's email
+	* selected email has blue tick
+	* user's email is offered by default
+	* the latest choice is memorized for the current organization
+	* when organization's email is not filled -> user's email is preselected automatically
 * "To*" - required text input
 	* placeholder "Fill in 1 or more emails"
 	* informational tooltip "Separate email addresses with a comma"

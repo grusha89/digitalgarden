@@ -149,3 +149,7 @@
 ==Access updated
 * when the access is updated manually or via workflow automations
 * displays the whole list of the actual users/teams with the access to the document 
+
+==Main file is changed
+* when main file is being changed
+* the name of the file is displayed in the log

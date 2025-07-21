@@ -21,6 +21,10 @@
 ###### Basic data
 - Name: has a placeholder, has the restriction on 35 symbols, validation when the field is empty 
 - Document kind: selector
+- Invoice type: selector
+	- Only for Incoming and Outgoing invoices
+	- has codependency with number series
+	- preselected invoice type will be default selection during document creation
 - [[Number series]]: selector with the full text search
 	- if series are assigned to the certain invoice type (e.g. proforma) then the documents will be allowed to be created only as proforma
 	- if series are not assigned to the certain invoice type then user will be able to choose any invoice type for the document he wants to created

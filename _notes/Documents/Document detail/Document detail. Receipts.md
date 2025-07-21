@@ -39,6 +39,11 @@
 
 ##### Supplier section
 
+> [!NOTE] Automatic pairing document with partner register
+> * Works when the toggle "Automatically match documents to a partner record" is true on organization profile page. 
+> * After activation of the toggle, a new validation will be available for documents "No partner selected from the dialer"
+> * The system will attempt to match documents with the corresponding partner record, first using the **Company ID (IČ)**, then the **VAT ID (DIČ)**, **bank account number / IBAN**, or **name** (must be an exact match).
+
 **Supplier
 	* partner selector
 	* full text search

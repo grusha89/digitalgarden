@@ -81,7 +81,8 @@ Buttons:
 	
 * "Automatically sort documents into organizations": detailed info [[Automatic sorting to the organization]]
 	* tooltip - "Documents can be automatically sorted based on the customer's ID within all organizations that fall under one customer account. The organization must have this option active. In the profile of the organization, you have filled in your ID number"
-	
+* Automatically match documents to a partner record
+	* tooltip - ""
 * Automatically pairing incoming invoices with orders
 	* tooltip - "If you check, the action will take place if the order number, the supplier and the amount on the order and the invoice match"
 	* when the toggle is turned on the following toggles unfold 
@@ -110,6 +111,7 @@ Buttons:
 * Automatically process data from [[ISDOC]]
 	* tooltip - "Document metadata is automatically taken from the ISDOC file immediately upon acceptance into the application, and the document's processing status changes to "Extracted"
 	* has additional toggle "Take over items"
+	* has additional toggle "For an ISDOC without a PDF file, a template will be automatically generated"
 
 * Automatically process receipts with QR code
 	* only for Slovak legislation

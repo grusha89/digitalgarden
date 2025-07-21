@@ -1,4 +1,16 @@
+### Automatic generating pdf for ISDOC
 
+* When the corresponding function is turned on in [[Organization profile]] 
+* When ISDOC doesn't have pdf
+* Only for Incoming and Outgoing Invoices
+* Works for ISDOC files that:
+	* received via emails
+	* uploaded via FE
+	* uploaded via Public API
+* print template contains the following tag: **default:ag** (ag = automatic generation)
+* PDF file will be generated automatically:
+	* pdf contains the title "ISDOC preview"
+	
 ### Processing ISDOC via collecting emails
 
 1. When ISDOC with the error is received - file is uploaded as PDF that can be sent to extraction

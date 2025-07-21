@@ -44,6 +44,14 @@
 
 ##### Supplier section
 
+
+> [!NOTE] Automatic pairing document with partner register
+> * Works when the toggle "Automatically match documents to a partner record" is true on organization profile page. 
+> * After activation of the toggle, a new validation will be available for documents "No partner selected from the dialer"
+> * The system will attempt to match documents with the corresponding partner record, first using the **Company ID (IČ)**, then the **VAT ID (DIČ)**, **bank account number / IBAN**, or **name** (must be an exact match).
+
+After activation, a new validation will be available for documents **not linked** to a partner card or **bank account number**.
+
 **Supplier
 	* partner selector
 	* full text search
@@ -63,7 +71,8 @@
 	* text input
 	* can be automatically filled when partner is chosen from selector
  * ***Bank account number + bank code
-	* text input
+	* selector
+	* selected bank account is marked with the blue tick
 	* can be automatically filled when partner is chosen from selector
 	* Validation tooltip "The account was found in the VAT register"
 	* Validation tooltip "The partner was not found in the VAT register" 
@@ -75,6 +84,7 @@
 	* IBAN is being validated when bank account number is not filled
 * **BIC
 	* text input
+
 
 ##### Customer section
 

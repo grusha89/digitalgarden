@@ -71,6 +71,7 @@ The goal is to have as many cases as possible with pre-calculated amounts for "U
 - Perform calculations **after validation** in ROSSUM.
 - If quantity is missing, assume it as "1."
 
+In a situation where we calculate the base amount from the total including VAT and the VAT rate, we must respect the quantity and accordingly enter the unit price without VAT and the VAT base.
 ##### Manual Calculation in ROSSUM
 
 - Add a custom button **"Recalculate Item Amounts"** in the ROSSUM scheme as per the documentation:

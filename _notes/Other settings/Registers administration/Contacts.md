@@ -24,31 +24,49 @@ When partner is being created - language and currency are automatically filled a
 		* ID
 		* VAT ID (if such registered, can not be in Not VAT payer organizations)
 		* Bank account number (if such registered in ARES)
-* ==**Contact information==
-* Legal name. Can be automatically filled with ARES. Required
-* Address. Can be automatically filled with ARES
-* ID.  Can be automatically filled with ARES
-* VAT ID. Can be automatically filled with ARES
-* Local VAT number input
-* Registration in business register input
-* "Phone No" input
-* Email address input. Valid format must be filled
-* "Language" selector
-* "Note" input
-* ==**Bank connection==
-* Bank account number. Can filled with ARES
-* Currency selector. Is required
-* IBAN input
-* BIC input
-* ==**Orders== 
-* "Delivery period" number input (days)
-* "Minimum order total" number input with decimals (amount)
-* "Tolerance of difference between the amount of orders and invoices for automatic pairing" number input
-* "Valid" toggle - if true, register will be available throughout organization in [[Document detail. Incoming Invoice]]
-* "Supplier"/"Customer" checkboxes, both can be checked at the same time
-	* supplier - partner will be available for Orders, Incoming Invoices and Receipts
-	* customer- partner will be available for Outgoing Invoices, PPD
-	* supplier/customer - for others
+* BASIC DATA section
+	* ==**Contact information==
+	* Legal name. Can be automatically filled with ARES. Required
+	* Address. Can be automatically filled with ARES
+	* ID.  Can be automatically filled with ARES
+	* VAT ID. Can be automatically filled with ARES
+	* Local VAT number input
+	* Registration in business register input
+	* "Phone No" input
+	* Email address input. Valid format must be filled
+	* "Language" selector
+	* "Note" input
+* BANK section
+	* ==** Main Bank account==
+	* Bank account number. Can filled with ARES
+	* Currency selector. Is required
+	* IBAN input
+	* BIC input
+	* ==** Other bank details==
+	* button "Add bank account"
+		* when is clicked the same fields appears as for Main bank account
+		* "recycle bin" appears to remove the bank account
+		* possible to add as many bank accounts as user wants
+		* possible to save with empty bank accounts
+
+**Conversion from account number to IBAN (for both the partner and on the document):**
+- If the account number does not include a bank code → do **not** convert to IBAN (keep it as is)  
+    Otherwise → perform the conversion to IBAN
+    
+**Conversion from IBAN to account number (for both the partner and on the document):**
+- If the format is not IBAN → return as an account number without conversion
+
+
+* ORDERS section
+	* ==**Orders== 
+	* "Delivery period" number input (days)
+	* "Minimum order total" number input with decimals (amount)
+	* "Tolerance of difference between the amount of orders and invoices for automatic pairing" number input
+	* "Valid" toggle - if true, register will be available throughout organization in [[Document detail. Incoming Invoice]]
+	* "Supplier"/"Customer" checkboxes, both can be checked at the same time
+		* supplier - partner will be available for Orders, Incoming Invoices and Receipts
+		* customer- partner will be available for Outgoing Invoices, PPD
+		* supplier/customer - for others
 * "Create" button - creates register
 
 **"Import" button**

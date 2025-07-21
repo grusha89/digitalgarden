@@ -1,7 +1,4 @@
 
-Choose a provider that will automatically extract data from your documents
-
-
 ### Extraction settings
 
 [Extraction settings design](https://www.figma.com/design/PmBAKoagQs1VDxoJGkT8x7/Integrations?node-id=115-3141&node-type=canvas&t=WUevE3vHJvEVepvu-0)
@@ -44,6 +41,7 @@ Set options for extracting received invoices
         - values can be added with “Enter”
         - values can be removed with the “Backspace”
         - there is a validation on the unknown value
+    
 
 #### Outgoing section
 
@@ -106,6 +104,25 @@ Set receipt mining options
 * When ***registers***  and ***items templates*** are updated, synchronization is not needed, they will be updated automatically in Rossum
 ---
 
+#### Changing Aurora version
+
+* It is possible to change Aurora version for each document kind separately
+* Current selected version is displayed
+* is displayed for Receipt only if Rossum is selected
+
+Dialog window "Change version"
+* Notice: We do not recommend changing the version without first consulting support.
+* Title and description: "Rossum version change. Changing the version will affect how data is extracted."
+* Radio button Aurora v.5 with the description: "It basically can extract documents. It improves by extracting based on confirmed documents. Lower learning rate compared to version 6."
+* Radio button Aurora v.6 with the description: "Mining based only on learned data from a given organization. Basically, it cannot mine documents without learned data."
+* Button "Use"
+
+#### Synchronization button
+
+* Is displayed for each document kind
+* Is not displayed when the settings are under the unsaved changes
+
+---
 
 #### PROD and PREPROD stages
 
