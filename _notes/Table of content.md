@@ -6,7 +6,7 @@ title: Table of content
 ### Navigation
 
 - [[Help]]
-- [[Account menu]]
+- [[User Account menu]]
 - [[Navigation side panel]]
 - [[Context menu]]
 - [[Custom views]]
@@ -42,7 +42,7 @@ shared sections
 - [[Document detail. Files]]
 - [[Manual forms]]
 - [[Document detail. VS, KS, SS]]
-
+- [[New document turning into Filled]]
 
 ### Documents grid
 
@@ -63,6 +63,7 @@ shared sections
 - [[Personal expenses]]
 - [[Transaction filters]]
 - [[Transaction and document pairing]]
+- [[Accesses]]
 
 ### Bank
 
@@ -142,8 +143,10 @@ Notifications
 
 - [[Automatic pairing order with incoming invoice]]
 - [[Account wflow]]
+- [[Access to the document]]
 - [[ARES]]
 - [[Dashboard]]
+- [[Downloading]]
 - [[Error notifications]]
 - [[ISDOC]]
 - [[Legislations]]
@@ -151,7 +154,9 @@ Notifications
 - [[Offline mode]]
 - [[Recycle Bin]]
 - [[Inputs]]
-
+- [[Keyboard shortcuts]]
+- [[Tables]]
+- [[Tooltips]]
 
 ### Rossum integration
 
