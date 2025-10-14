@@ -11,6 +11,7 @@
 	* on the bottom of the selector there is "Overview of organizations" that redirects to the [[Dashboard]]
 
 * Search bar to find the needed folder, document type, any navigation folder
+	* the first item in the list will be selected by pressing "Enter"
 * Bookmarks - to reach quickly the frequently used folders, can be set via the [[context menu]] of the folder
 * My tasks
 * Documents
@@ -164,7 +165,7 @@ Organization name
 
 **Default state** – the workspace navigation (contextual, e.g., Documents, Storage, or Finance) is closed.
 
-**When the page is reloaded** (e.g., F5 or browser refresh) – the last state is remembered.
+**When the page is reloaded** (e.g., F5 or browser refresh) – navigation menu appears immediately with loading skeleton, the last state is remembered.
 
 **When clicking a link in the navigation panel** (that changes the context) – redirection occurs and the workspace navigation opens.
 
@@ -174,3 +175,4 @@ Organization name
 
 **When redirected (without interacting with the navigation panel) to the same context** (e.g., Search) – the navigation does not open.
 
+**When manual document creation form is opened** - the navigation panel collapses

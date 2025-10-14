@@ -3,10 +3,17 @@
 
 Can be hidden/unhidden with the help of:
 * lines icon on the left panel
-* special arrow in the right bottom
+* "close" button
 
 "Lines" icon displays the count of the lines
 The height of the lines section is adjustable by dragging the section header
+
+##### Lines stretching
+
+* Lines section has stretching button (two arrows)
+* Stretching of the lines applies automatically on "Files" section
+* User can stretch the lines along the width of the document
+	* Save and Cancel buttons will be above the lines section on the left
 
 ---
 
@@ -117,6 +124,17 @@ Automatically calculated from Amount x Price per Unit
 > [!NOTE] Manual Outgoing Invoice and Order
 > The lines are not automatically filled with amounts based on the total amount and recapitulation. It works vise versa: Total amount and the recapitulation are being filled on the base of the added lines, as this document kinds have recapitulation and total amount fields read only [[Document detail. Orders]] 
 
+##### Add from spreadsheet
+* Button that is hidden in the button selector
+* Button opens the "Import" dialog window
+	* 1. Export your template - "Export" button (exports template)
+	* 2. Edit the exported file and save. The file must be saved in .xlsx format
+	* 3. Select the modified file to import from the directory
+	* Warning "Importing will overwrite all existing items."
+	* Upload section with the text "**Upload a file by clicking** or dragging and droppingSelect the format .xlsx, .xls" 
+	* Button "Import", not active when template is not selected
+* The lines from the spreadsheet substitute the existing lines 
+
 ##### Add from template
 * Button that is hidden in the button selector
 * Button opens the "Pick template" selector
@@ -192,3 +210,8 @@ Detailed info how manage lines template  can be found in [[Items]] in section #D
 
 Detailed info can be found in [[Document detail. Approval]]
 
+##### Empty state
+
+When there is no any line, the following things are displayed
+* icon of the lines
+* text "the document doesn't contain lines'"

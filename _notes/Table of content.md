@@ -43,6 +43,7 @@ shared sections
 - [[Manual forms]]
 - [[Document detail. VS, KS, SS]]
 - [[New document turning into Filled]]
+- [[Edit mode and Save]]
 
 ### Documents grid
 
@@ -148,7 +149,7 @@ Notifications
 - [[Dashboard]]
 - [[Downloading]]
 - [[Error notifications]]
-- [[ISDOC]]
+- [[E-invoicing]]
 - [[Legislations]]
 - [[Not VAT payer organizations]]
 - [[Offline mode]]

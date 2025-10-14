@@ -11,7 +11,7 @@
 
 
 #StorageColumns 
-Detailed info about Storage columns can be found in [[Customization. Appearance]]
+Detailed info about Storage columns can be found in [[Customization. Columns settings]]
 
 ### Single actions
 

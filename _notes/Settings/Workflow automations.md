@@ -73,6 +73,10 @@ Logic:
 - Corresponding Flow status is by default and not editable
 - Conditions, operators and values  are in the table below
 
+
+> [!NOTE] Manual outgoing invoice
+> In order for manual outgoing invoice not to be sent automatically to the extraction, user must set extraction section in manual mode
+
 ---
 
 
@@ -166,28 +170,32 @@ PPD, Others workflow:
 ---
 
 ### The table of conditions
-|Sections|Conditions|Operators|Value|
-|---|---|---|---|
-|Extraction, Approval, Review, ERP|Document kind|equal, not equal, in the list, not in the list|selector|
-|Extraction, Approval, Review, ERP|Document type|equal, not equal, in the list, not in the list|selector|
-|Extraction, Approval, Review, ERP|Document series|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Extraction, Approval, Review, ERP|Contract|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Extraction, Approval, Review, ERP|Cost Center|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Extraction, Approval, Review, ERP|Activity|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Extraction, Approval, Review, ERP|Sender’s email|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Approval, Review, ERP|Currency|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Approval, Review, ERP|Partner|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Approval, Review, ERP|Partner’s DIC|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Approval, Review, ERP|Partner’s IC|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Approval, Review, ERP|Partner’s Local VAT|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Approval, Review, ERP|Total amount|equal, not equal, equal or more than, more than, equal or less than, less than, between||
-|Approval, Review, ERP|Links count|equal, not equal, equal or more than, more than, equal or less than, less than, between||
-|Approval, Review, ERP|Data source|equal, not equal, in the list, not in the list, filled, not filled|selector (Rossum, isdoc, eKASA, public API)|
-|Extraction, Approval, Review, ERP|Created by user|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Extraction, Review, ERP? Approval|Order number|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Extraction, Approval, Review, ERP|Accounting rule|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|Extraction, Approval, Review, ERP|Description|equal, not equal, in the list, not in the list, contains, not contains, filled, not filled||
-|Extraction, Approval, Review, ERP|Validation warnings|contains, does not contain||
-|Extraction, Approval, Review, ERP|Validation error|contains, does not contain||
-|Extraction, Approval, Review, ERP|Tag|equal, not equal, in the list, not in the list, filled, not filled|selector|
-|For the section that goes after Approval section|Flow status|equal, not equal, in the list, not in the list|selector (New document, Filled, Extracted, Reviewed)|
+| Sections                                         | Conditions          | Operators                                                                                  | Value                                                |
+| ------------------------------------------------ | ------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| Extraction, Approval, Review, ERP                | Document kind       | equal, not equal, in the list, not in the list                                             | selector                                             |
+| Extraction, Approval, Review, ERP                | Document type       | equal, not equal, in the list, not in the list                                             | selector                                             |
+| Extraction, Approval, Review, ERP                | Document series     | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Contract            | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Cost Center         | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Activity            | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Sender’s email      | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Approval, Review, ERP                            | Currency            | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Approval, Review, ERP                            | Partner             | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Approval, Review, ERP                            | Partner’s DIC       | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Approval, Review, ERP                            | Partner’s IC        | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Approval, Review, ERP                            | Partner’s Local VAT | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Approval, Review, ERP                            | Total amount        | equal, not equal, equal or more than, more than, equal or less than, less than, between    |                                                      |
+| Approval, Review, ERP                            | Links count         | equal, not equal, equal or more than, more than, equal or less than, less than, between    |                                                      |
+| Approval, Review, ERP                            | Data source         | equal, not equal, in the list, not in the list, filled, not filled                         | selector (Rossum, isdoc, eKASA, public API)          |
+| Extraction, Approval, Review, ERP                | Created by user     | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Extraction, Review, ERP? Approval                | Order number        | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Extraction, Approval, Review, ERP                | Accounting rule     | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Description         | equal, not equal, in the list, not in the list, contains, not contains, filled, not filled |                                                      |
+| Extraction, Approval, Review, ERP                | Validation warnings | contains, does not contain                                                                 |                                                      |
+| Extraction, Approval, Review, ERP                | Validation error    | contains, does not contain                                                                 |                                                      |
+| Extraction, Approval, Review, ERP                | Tag                 | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| For the section that goes after Approval section | Flow status         | equal, not equal, in the list, not in the list                                             | selector (New document, Filled, Extracted, Reviewed) |
+| Extraction, Approval, Review, ERP                | Payment method      | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Employee            | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Card                | equal, not equal, in the list, not in the list, filled, not filled                         | selector                                             |
+| Extraction, Approval, Review, ERP                | Paired transactions | contains, does not contain                                                                 |                                                      |

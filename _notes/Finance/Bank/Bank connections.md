@@ -18,7 +18,10 @@
 	* button that opens the dialog window to add users. teams, everyone (Admin user doesn't have access to the transaction by default, he must be mentioned in this part)
 * connection owner: avatar + user name + email
 * connection status: Connected or Connection error
-* Kebab menu: contains only one action "Disconnect"
+* Kebab menu: 
+	*  "Disconnect the account" 
+	* "Restore connection"
+		* connection is disconnected and user is redirected automatically to the bank page (it helps user to disconnect and connect in one step)
 
 ---
 * One user can connect several banks (duplicates are allowed)

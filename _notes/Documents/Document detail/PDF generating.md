@@ -1,4 +1,4 @@
-
+Generated PDF's name includes the document number
 ### For Incoming invoice and Receipt**
 
 It is possible to generate PDF when the following conditions are met:
@@ -7,3 +7,7 @@ It is possible to generate PDF when the following conditions are met:
 
 Created PDF automatically becomes main file
 
+
+### For manual Outgoing Invoices and Orders
+
+If document already has generated PDF and user wants to generate new PDF with edited data -> the old PDF remains, new PDF will be marked as main file

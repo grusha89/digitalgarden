@@ -44,6 +44,14 @@ The “Employees expenses” includes the following subsections:
 
 **Cards table**
 
+* Filters:
+	* Card status: Active, Inactive, Cancel filter
+		* "Active" is automatically selected by default
+	* User: drop down list with user that are assigned to the cards
+	* User assignment status: drop down list with two options "Assigned user", Unassigned user"
+	* Button "Close" - appears only when at least one filter is selected, it cancels all filters settings
+	
+
 - Search bar. It's not case-sensitive. Ignores diacritics. Search is available by:
     - alias, cardholder’s name
     - user

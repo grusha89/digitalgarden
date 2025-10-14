@@ -192,6 +192,16 @@ Lines:
 "Add item" button adds new empty line
  Kebab menu:
  * Delete all
+ * Button that is hidden in the button selector
+ * Import from spreadsheet
+	* Button opens the "Import" dialog window
+		* 1. Export your template - "Export" button (exports template)
+		* 2. Edit the exported file and save. The file must be saved in .xlsx format
+		* 3. Select the modified file to import from the directory
+		* Warning "Importing will overwrite all existing items."
+		* Upload section with the text "**Upload a file by clicking** or dragging and droppingSelect the format .xlsx, .xls" 
+		* Button "Import", not active when template is not selected
+	* The lines from the spreadsheet substitute the existing lines 
  * Import. The same excel template as in #CatalogOfItems 
  * Export
 

@@ -2,7 +2,8 @@
 Validation settings are managed in [[Customization. Validations]]
 
 Validations appear in the separate section.
-Section has count
+* The whole section can be closed via cross button
+* Section has count
 
 Validation types:
 * Errors (red)

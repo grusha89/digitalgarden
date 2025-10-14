@@ -173,6 +173,7 @@ Values to select are created in #Registers
 * Business item
 * VAT reverse charge code
 * VAT supply mode code
+* VAT regime (Operators: is equal, does not equal)
 * Cash register
 * Contra Account (MD/D)
 * Accounting rule

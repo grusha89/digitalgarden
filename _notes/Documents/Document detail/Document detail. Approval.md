@@ -9,6 +9,7 @@ dialog window appears with the selector
 * full text search
 * when approval path is selected, all level with all approvers are displyed
 * it's possible to change the order of the levels using drag and drop and add new level with new approvers using button "+"
+* approvers added via button "+" have icon of recycle bin, they can be removed until the changes are saved
 * it's impossible to edit the approvers in predefined levels
 * button "Set". When clicked, approval path is assigned to the document
 * action is available only when document doesn't have assigned approval path and when is unlocked

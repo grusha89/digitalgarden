@@ -61,5 +61,5 @@ It's almost the same as for documents but here are the differences:
 * For each kind, only corresponding custom properties are displayed
 
 **COLUMNS**
-* For each kind only corresponding custom properties are displayed in column settings [[Customization. Appearance]]
+* For each kind only corresponding custom properties are displayed in column settings [[Customization. Columns settings]]
 

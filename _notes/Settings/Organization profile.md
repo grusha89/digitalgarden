@@ -108,9 +108,12 @@ Buttons:
 * Selection of number series at the document level
 	* tooltip - "If checked, the number series will be optional in the Document Detail for each document separately. The current number series setting on Document Type will no longer respected"
 
-* Automatically process data from [[ISDOC]]
-	* tooltip - "Document metadata is automatically taken from the ISDOC file immediately upon acceptance into the application, and the document's processing status changes to "Extracted"
+* Automatically process data from electronic invoicing formats ( [[E-invoicing]], [[ZUGFeRD]]
+	* tooltip - "Document metadata is automatically taken from the e-invoicing format file as soon as it received into the application, and the document's processing status changes to "Extracted"
 	* has additional toggle "Take over items"
+	* has additional toggle "Take over documents description"
+		* when toggle is on -> description is taken from the document
+		* when toggle is off -> document's description is ignored, email's subject is taken as description instead
 	* has additional toggle "For an ISDOC without a PDF file, a template will be automatically generated"
 
 * Automatically process receipts with QR code

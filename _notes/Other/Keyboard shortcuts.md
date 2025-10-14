@@ -9,6 +9,7 @@ Keyboard shortcuts that are available anywhere in wflow
 
 Bookmarks - **Shift B**
 Retrieved from -  **Ctrl Shift R**
+Navigation menu (open/close) - **G**
 
 #### ***Document detail**
 Keyboard shortcuts that are available on the document detail

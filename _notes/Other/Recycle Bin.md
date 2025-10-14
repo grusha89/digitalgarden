@@ -1,7 +1,7 @@
 Documents are being kept in recycle bin for 30 days
 After 30 days they are automatically being removed
 
-Description of the columns of the recycle bin can be found in [[Customization. Appearance]]
+Description of the columns of the recycle bin can be found in [[Customization. Columns settings]]
 
 **The frequent user's case**
 

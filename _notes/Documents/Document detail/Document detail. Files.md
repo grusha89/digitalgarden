@@ -1,11 +1,28 @@
 
+
+#### Files tab Lines visibility
+
+Can be hidden/unhidden with the help of:
+* Files icon on the left panel
+* "close" button
+
+"Files" icon displays the count of the lines
+The height of the Files section is adjustable by dragging the section header
+
+##### Files stretching
+
+* Files section has stretching button (two arrows)
+* Stretching of the files applies automatically on "Lines" section
+* User can stretch the Files section along the width of the document
+	* Save and Cancel buttons will be above the lines section on the left
+
 ### File preview
 
 
 > [!info] Supported image formats
 > JPEG, PNG, SVG
 
-* When the file can not be displayed tools from Upper panel and  File tools are not available (not displayed). In this case instead if the image message is displayed "No content! We cannot view this file format"
+* When the file can not be displayed File tools are not available (not displayed). In this case instead of the image message is displayed "No content! We cannot view this file format"
 * When there is no any file the following message is displayed "No content!"
 * Such files as .txt and .html must be displayed normally 
 
@@ -21,25 +38,32 @@
 * has a blue color when it's on and cursor changes
 * in order to extract the text, the text must be defined with the cursor
 
-**Print
-* tooltip on hover
-* prints the file
+
 
 ---
 
 ##### File tools
 
-1. T - enable text selection 
+1. **Download** (tooltip on hover)
+2. **Print
+	* tooltip on hover
+	* prints the file
+3. Fit to page/ fit to width button (tooltip on hover)
+4. Rotate
+	* tooltip on hover
+	* rotates the image
+5. Scale up button (tooltip on hover)
+6. Scale down button (tooltip on hover)
+7. **OCR (Not sure if customers use it at all)
+	* Allows you to extract data manually 
+	* is turned off by default (grey color)
+	* clicking on OCR turns it on/off
+	* has a blue color when it's on and cursor changes
+	* in order to extract the text, the text must be defined with the cursor
+8. T - enable text selection (Some PDFs don't have such option)
 	* tooltip on hover
 	* can be turned on/off (blue/grey colors)
 	* allows to copy the text out of the file
-2. Fit to page/ fit to width button (tooltip on hover)
-3. Rotate
-	* tooltip on hover
-	* rotates the image
-4. Scale up button (tooltip on hover)
-5. Scale down button (tooltip on hover)
-
 
 ---
 
@@ -152,6 +176,52 @@ Dialog window "Send e-mail" appears:
 
 
 
+---
+##### Selected files preview
+
+Each file is displayed as the icon of file with the name of file type + name of the file + date of the last update
+
+export const SUPPORTED_FILE_TYPE_PREVIEWS = [
+  'CSS',
+  'CSV',
+  'DMG',
+  'DOC',
+  'DOCX',
+  'EPS',
+  'EXE',
+  'GIF',
+  'HTML',
+  'IMG',
+  'ISDOC',
+  'ISDOCX',
+  'JAVA',
+  'JPEG',
+  'JPG',
+  'JS',
+  'JSON',
+  'PDF',
+  'PNG',
+  'PPT',
+  'PPTX',
+  'RAR',
+  'RSS',
+  'SQL',
+  'SVG',
+  'TIFF',
+  'TXT',
+  'WEBP',
+  'XLS',
+  'XLSX',
+  'XML',
+  'ZIP',
+];
+
+
+##### Empty state
+
+When there is no any file, the following things are displayed
+* icon of the file
+* text "the document doesn't contain files'"
 
 
 

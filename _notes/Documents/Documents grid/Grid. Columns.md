@@ -15,11 +15,25 @@ Subfolders in the listed above main folders have the same column settings as the
 * if column setting are changed in the subfolder -> changes apply to the main folder and to the rest subfolders
 
 ##### Column settings dialog window
-* Search bar - full text search, depends on diacritics, not case sensitive
-* Active and Inactive sides: columns can be dragged and dropped
+* Search bar - 
+	* full text search, depends on diacritics, not case sensitive
+	* searches only column names (not the names of categories)
+	* search works by column key name as well
+	* category unfolds if column name in it is being searched
+* Columns selector:
+	* Columns divided by categories
+	* Each column has checkbox
+	* When checkbox is clicked to be true -> corresponding column chip appears in the active list, it's being added to the end of the list and automatic scroll to the end of the list is being applied
+	* When checkbox is clicked to be false -> the corresponding column chip disappears from the the active list
+	* folded state of the categories is memorized and kept across the column settings of other document kinds and folders
+	* folded state of the categories is not memorized during the session, if user closes the settings and opens again -> all categories would be unfolded again
+* Active list: 
+	* each columns goes as the separate chip with close button
+	* columns can be dragged and dropped
+	* column can be removed from the active side via close button -> corresponding checkbox in columns selection becomes false automatically
 * Order of the columns applies to the order displayed on the grid
 * "Default settings" button. Reset the columns to the default setting. 
-	* Default setting is set in [[Customization. Appearance]]
+	* Default setting is set in [[Customization. Columns settings]]
 
 ##### Sorting
 Columns that don't have sorting:

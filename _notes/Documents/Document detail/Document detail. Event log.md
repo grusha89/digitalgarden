@@ -1,6 +1,7 @@
 
 ### General info
 
+* The whole section can be closed via cross button
 * Changes that are made in document detail reflect in the event log
 * Each log record displays:
 	* name of the action

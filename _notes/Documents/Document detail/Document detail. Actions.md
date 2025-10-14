@@ -166,6 +166,7 @@ User is redirected to the document detail of the copy
 Deletes the document
 Confirmation message appears
 
+* user gets redirected to the documents grid after document removal if automatic transition is turned off
 
 ---
 

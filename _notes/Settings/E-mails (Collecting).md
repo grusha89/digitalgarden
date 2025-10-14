@@ -1,4 +1,12 @@
 
+> [!tip] Testing info
+> Max. size of files to send via email:
+> * PROD stage - 50MB
+> * TEST stage - 2MB
+> 
+
+
+
 Each email has a "Copy" button 
 Each email has folder or document type displayed 
 Each email has Duplicate and Settings buttons

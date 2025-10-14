@@ -248,6 +248,40 @@ Button "Download"
 
 ---
 
+#### Unlock and delete in one step 
+
+When user has rights to delete and unlock documents, he can do both actions in one step (system doesn't allow to delete locked documents)
+
+1. When locked and unlocked documents are selected:
+
+Dialog window "Remove":
+* message "Some of the selected documents are locked. To delete locked documents, confirm that they are unlocked."
+* checkbox "Delete locked documents"
+	* false - removes only unlocked documents -> intelligent error message about locked document will appear, text adapts to the single or plural form
+	* true - unlocks locked documents and removes them
+* button "No" - cancels the action
+* button "Yes" - removes the documents
+
+2. When only locked documents are selected
+
+Dialog window "Remove":
+* message "The selected document/s is/are locked. Deleting the document/s will unlock it/them and then move it/them to the trash."
+* checkbox "Delete locked document/s"
+	* false - disables button "Yes"
+	* true - unlocks locked documents and removes them
+* button "No" - cancels the action
+* button "Yes" - removes the documents if checkbox "Delete locked document/s" is true
+
+3. When user doesn't have right to lock/unlock documents
+
+Dialog window "Remove":
+* when locked and unlocked documents are selected:
+	* message "Some of the selected documents are locked. Only unlocked documents will be deleted." 
+* when only locked documents are selected:
+	* message "The selected document/s is/are locked. You do not have sufficient permissions to unlock the document/s."
+	* button "Yes" is disabled
+* button "No" - cancels the action
+* button "Yes" - removes the documents -> intelligent error message about locked document will appear, text adapts to the single or plural form
 
 > [!NOTE] Kebab menu
 >The following described bulk actions are hidden in the kebab menu
@@ -343,6 +377,7 @@ Dialog window appears:
 	* other account can be selected
 * "Date of pay". Three chips are available and clickable:
 	* Own, Due date, Today
+	* the last selected option is memorized for the further payments (only "today" and "due date")
 * Main file preview
 * Payment order status
 * Date of pay. Date picker. Can be set according to the selected chip
@@ -353,13 +388,31 @@ Dialog window appears:
 * Variable symbol
 * Constant symbol
 * Specific symbol
-* "Note" text input with the placeholder "Write the note for receiver"
+* "Message for recipient" text input
+	* input value depends on selected chip (the last choice is memorized):
+		* "Document description" - field inherits description of the document (validation for 140 symbols max.)
+		* "Custom" - empty input with the placeholder "Write a message for the recipient"
 * Recycle bin
 * "Total to be pay": amount + currency
 * "Mark as paid" - ignores payment via bank API, just marks the document as paid
-* "Pay by transfer" - if all conditions are correct, user is redirected to the third party banking page
-	* When payment is being processed the dialog window with pending info is displayed "Confirming your payment, please wait"
-
+* "Pay by transfer": contains two buttons:
+	* 1. "Pay by transfer" - if all conditions are correct, user is redirected to the third party banking page.  When payment is being processed the dialog window with pending info is displayed "Confirming your payment, please wait"
+	* 2. "Export ABO"
+		* has validation on filled account number in Organization profile (when there is no Bank API connection):
+			* when account number is not filled - account number field is highlighted with red in bulk payment dialog window and there is tooltip on hover "Fill the account number in Settings-> Organization profile to export ABO" and button "Export ABO" becomes red
+		* supports only CZK payments 
+			* when another currency is selected:
+				* validation within bulk payments dialog window appears (when there is bank API connection)
+				* validation appears in dialog window of "Export ABO", "Confirm" button is disabled
+		* dialog window appears "Export ABO"
+			* Batch date (date picker)
+				* current date is selected by default"
+				* impossible to select date in the past
+			* Toggle "Mark invoices as paid" - is false by default
+			* Button "Cancel"
+			* Button "Confirm"
+			* Dialog window has close button
+		
 ***Validations
 
 * When IBAN belongs to not VAT payer or is not found in VAT register the corresponding validation message appears beside the IBAN (appears immediately). 

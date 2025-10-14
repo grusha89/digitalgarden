@@ -1,5 +1,6 @@
 
 Comment section can be found in the left panel of document detail
+* The whole section can be closed via cross button
 
 When the comment section is clicked:
 * comment section unfolds/folds
