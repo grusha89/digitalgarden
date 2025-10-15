@@ -52,7 +52,7 @@ dialog window:
 **Preserve document data:
 1. it is possible to preserve data only for moving document between the main kinds (Incoming Invoice, Outgoing invoice, Receipt, Income Cash Receipt)
 2. Data that will be preserved:
-	1. metadata + lines [Link]([https://docs.google.com/spreadsheets/d/1aU4QfdIJDK-2n2dMa9_p7nAg7oN5zYkbhiitlpRL2-U/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1aU4QfdIJDK-2n2dMa9_p7nAg7oN5zYkbhiitlpRL2-U/edit?usp=sharing))
+	1. metadata + lines 
 	2. approval path
 	3. comments
 	4. custom properties (if exits for the target kind)
@@ -62,6 +62,46 @@ dialog window:
 	8. accounting fields (only those that not fixed to the certain kinds)
 	9. flow status
 
+
+| PF                     |     | účtenka                |     | VF                     | Zachovat data                          | pozn.                        |
+| ---------------------- | --- | ---------------------- | --- | ---------------------- | -------------------------------------- | ---------------------------- |
+| Dokladová řada         |     | Dokladová řada         |     | Dokladová řada         | NE                                     |                              |
+| Typ faktury            |     |                        |     | Typ faktury            | NE                                     |                              |
+| Popis                  |     | Popis                  |     | Popis                  | ANO (pokud pole cílový druh podporuje) |                              |
+| Číslo                  |     | Číslo                  |     | Číslo                  | ANO (pokud pole cílový druh podporuje) |                              |
+| Variabilní symbol      |     | Variabilní symbol      |     | Variabilní symbol      | ANO (pokud pole cílový druh podporuje) |                              |
+| Konstantní symbol      |     |                        |     | Konstantní symbol      | ANO (pokud pole cílový druh podporuje) |                              |
+| Specifický symbol      |     |                        |     | Specifický symbol      | ANO (pokud pole cílový druh podporuje) |                              |
+| Číslo objednávky       |     |                        |     | Číslo objednávky       | ANO (pokud pole cílový druh podporuje) |                              |
+| Číslo daňového dokladu |     | Číslo daňového dokladu |     | Číslo daňového dokladu | ANO (pokud pole cílový druh podporuje) |                              |
+| Interní číslo          |     | Interní číslo          |     | Interní číslo          | ANO (pokud pole cílový druh podporuje) |                              |
+| Externí označení       |     | Externí označení       |     | Externí označení       | ANO (pokud pole cílový druh podporuje) |                              |
+| Dodavatel              |     | Dodavatel              |     | Odběratel              | ANO (pokud pole cílový druh podporuje) |                              |
+| Adresa dodavatele      |     | Adresa dodavatele      |     | Adresa odběratele      | ANO (pokud pole cílový druh podporuje) |                              |
+|                        |     |                        |     | E-mail                 | ANO (pokud pole cílový druh podporuje) |                              |
+| IČ dodavatele          |     | IČ dodavatele          |     | IČ odběratele          | ANO (pokud pole cílový druh podporuje) |                              |
+| DIČ dodavatele         |     | DIČ dodavatele         |     | DIČ odběratele         | ANO (pokud pole cílový druh podporuje) |                              |
+| Místní DIČ dodavatele  |     | Místní DIČ dodavatele  |     | Místní DIČ odběratele  | ANO (pokud pole cílový druh podporuje) |                              |
+| Číslo účtu             |     |                        |     | Číslo účtu             | ANO (pokud pole cílový druh podporuje) |                              |
+| IBAN                   |     |                        |     | IBAN                   | ANO (pokud pole cílový druh podporuje) |                              |
+| BIC                    |     |                        |     | BIC                    | ANO (pokud pole cílový druh podporuje) |                              |
+| Datum vystavení        |     | Datum vystavení        |     | Datum vystavení        | ANO (pokud pole cílový druh podporuje) |                              |
+| Datum přijetí          |     | Datum přijetí          |     |                        | ANO (pokud pole cílový druh podporuje) |                              |
+| Datum případu          |     | Datum případu          |     |                        | ANO (pokud pole cílový druh podporuje) |                              |
+| Datum UZP              |     | Datum UZP              |     | Datum UZP              | ANO (pokud pole cílový druh podporuje) |                              |
+| Datum splatnosti       |     |                        |     | Datum splatnosti       | ANO (pokud pole cílový druh podporuje) |                              |
+| Měna                   |     | Měna                   |     | Měna                   | ANO (pokud pole cílový druh podporuje) |                              |
+| Kurz                   |     | Kurz                   |     | Kurz                   | ANO (pokud pole cílový druh podporuje) |                              |
+| Jednotky kurzu         |     | Jednotky kurzu         |     | Jednotky kurzu         | ANO (pokud pole cílový druh podporuje) |                              |
+| 21%                    |     | 21%                    |     |                        | ANO (pokud pole cílový druh podporuje) | U VF se dopočítává z položek |
+| 15%                    |     | 15%                    |     |                        | ANO (pokud pole cílový druh podporuje) | U VF se dopočítává z položek |
+| 10%                    |     | 10%                    |     |                        | ANO (pokud pole cílový druh podporuje) | U VF se dopočítává z položek |
+| 0%                     |     | 0%                     |     |                        | ANO (pokud pole cílový druh podporuje) | U VF se dopočítává z položek |
+| Částka zaokrouhlení    |     | Částka zaokrouhlení    |     | Částka zaokrouhlení    | ANO (pokud pole cílový druh podporuje) |                              |
+| Uhrazeno zálohou       |     | Uhrazeno zálohou       |     | Uhrazeno zálohou       | ANO (pokud pole cílový druh podporuje) |                              |
+| Celková částka         |     | Celková částka         |     | Celková částka         | ANO (pokud pole cílový druh podporuje) | U VF se dopočítává z položek |
+| Neproplácet            |     |                        |     |                        | NE                                     |                              |
+| POLOŽKY                |     | POLOŽKY                |     | POLOŽKY                | ANO (pokud pole cílový druh podporuje) | vč. číselníků účtování       |
 
 > [!important] Flow status
 > * flows status changes according to the workflow of the target document type/kind
