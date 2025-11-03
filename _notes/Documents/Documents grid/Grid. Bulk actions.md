@@ -168,6 +168,40 @@
 > *  When mix kinds are selected - button "Move" is disabled + error message "Impossible to combine several kinds"
 > 
 
+---
+
+#### Move to another organization
+
+Action is the part of "Move document" action
+
+When "Move to another organization" is clicked:
+* dialog window "Move document appears"
+	* "Organization" selector:
+		* is empty by default
+		* contains placeholder "Select an organization"
+		* contains search autocomplete
+		* contains the list of all organization where user has access to
+	* "Document kind" selector:
+		* is empty by default and read-only
+		* contains placeholder "Select document kind"
+		* automatically gets filled with value "Incoming invoice" when organization is selected
+		*  contains the list of documents kinds
+	* "Document type" selector:
+		* is empty by default and read-only
+		* contains placeholder "Select document type"
+		* automatically gets filled with default document type when organization is selected
+		*  contains the list of document types within selected document kind
+		* contains search autocomplete
+	* "Confirm move" button
+		* warning appears when the button is clicked:
+			* "The document is created in the target organization and moved to the recycle bin in the current organization. Document data will not be preservedOnly files and event history will be moved. Other document data will not be preserved. Please check the document with the target organization."
+
+
+> [!NOTE] Permission and access
+> * User must have permission to create documents in the target organization
+> * When user doesn't have corresponding permissions in the target organization he gets the error notification: "Saving failed The user is not authorized to create documents in the target organization!
+
+When the target organization has mismatched document series and invoice type with the document that is going to be transfered -> movement will not happen due to this reason, error notification appears
 
 ---
 
@@ -424,3 +458,11 @@ Dialog window appears:
 	* Currency. When is not filled
 	* IBAN. When is not filled
 	* VS. When is not filled
+
+##### SEPA PAYMENTS
+
+In the SEPA payment order, the following new fields are mandatory:
+
+- **City name** – we don’t have this field in wflow, so we fill it with the supplier’s address (max. 35 characters).
+    
+- **Country code** – we take the first two characters from the supplier’s IBAN.

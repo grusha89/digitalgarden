@@ -28,15 +28,35 @@ Detailed information about validations behavior can be found in [[Document detai
 
 ***Disagrees Total amount compared to VAT recapitulation
 * tooltip "Checks the consistency of the sum of the amounts in the recapitulation of VAT and the total amount"
+* has additional settings "Tolerance setting" (Set the line tolerance at which validation will not be displayed.)
+	* "Tolerance" field:
+		* displayed currency of the organization
+		* number with two decimals can inserted 
+	* "Cancel" button
+	* "Use" button
 
 ***Disagrees Lines compared to VAT recapitulation
 * tooltip "Checks the consistency of the sum of the amounts in the VAT recapitulation and the sum of the amounts in the items"
+* has additional settings "Tolerance setting" (Set the line tolerance at which validation will not be displayed.)
+	* "Tolerance" field:
+		* displayed currency of the organization
+		* number with two decimals can inserted 
+	* "Cancel" button
+	* "Use" button
 
 ***Error in VAT calculations
 * tooltip "Check whether the tax base of the rates with the calculated VAT fits. Tolerance +/-"
+* has additional settings "Tolerance setting" (Set the line tolerance at which validation will not be displayed.)
+	* "Tolerance" field:
+		* displayed currency of the organization
+		* number with two decimals can inserted 
+		* if tolerance is smaller than 0.01, it will be treated as 0.01 in the code during comparison.
+	* "Cancel" button
+	* "Use" button
 
 ***Unknown VAT rates
 * tooltip "Checking whether the VAT rates match the standard rates (taken on the basis of the organization's VAT number"
+
 
 ***The date is out of range
 * "The date on the document is more than 2 years away from the date of creation. Dates are checked: UZP date, Issue date, Received date, Case date and Due date"
@@ -47,6 +67,12 @@ Detailed information about validations behavior can be found in [[Document detai
 
 ***Line item amounts do not match
 * The basis amount on the item does not match (Quantity x Unit Price)
+* has additional settings "Tolerance setting" (Set the line tolerance at which validation will not be displayed.)
+	* "Tolerance" field:
+		* displayed currency of the organization
+		* number with two decimals can inserted 
+	* "Cancel" button
+	* "Use" button
 
 ***The account number does not match the partner record.
 * tooltip "The account number on the document doesn't match any account number on the partner record"

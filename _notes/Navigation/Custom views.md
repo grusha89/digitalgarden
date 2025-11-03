@@ -27,6 +27,7 @@ Custom views are displayed in the order of creation time
 	* optional
 	* stretches
 * "Display a label with the number of documents" checkbox
+* "Turn on notifications" checkbox - turns on the corresponding toggle in [[wflow.com WIKI/Other settings/Notifications|Notifications]]
 * "Add a condition":
 	* contains the same component as filters [[Grid. Filters]]
 	* selected conditions are displayed in the dialog window

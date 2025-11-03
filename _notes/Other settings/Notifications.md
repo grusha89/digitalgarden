@@ -24,7 +24,7 @@
 
 ---
 
-### Email body
+### Email body 
 
 User receives all active notifications for all organizations in one email
 
@@ -34,3 +34,11 @@ User receives all active notifications for all organizations in one email
 	* Notification name
 	* Call to action + link 
 	* Button "Go to organization"
+
+
+---
+
+### Custom views
+
+Displays toggles for all existing custom views in organization
+
