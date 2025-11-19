@@ -25,3 +25,11 @@ Folders that don't have context menu:
 
 ##### Add to bookmark
 * add the folder to the "Bookmark" section for the quick access
+
+##### New document type
+* available for document kinds
+* call the dialog window of document type creation [[Document types]]
+
+##### Edit document type
+* available for document types
+* call the dialog window of document type edit [[Document types]]

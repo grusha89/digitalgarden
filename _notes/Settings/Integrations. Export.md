@@ -30,10 +30,14 @@ It is possible to change the order of the custom exports by drag and drop
 * "Share" checkbox:
 	* tooltip "If checked, this export will be available to all users in your organization"
 * "Definition* section
-	* has active and inactive side
-	* using drag and drop we can add columns to the export
-	* selected columns has column Id and the column name
-	* Each selected column can be changed clicking on setting wheel
+	* Search and list of columns
+		* columns are divided by categories
+		* each columns has checkbox
+		* when checkbox is clicked to be true column is added to active columns to the end of the list and automatic scroll launches to the freshly added column
+	* Active columns
+		* using drag and drop we can change the order of the columns
+		* selected columns has column Id and the column name
+		* Each selected column can be changed clicking on the "pencil" 
 * "Options" section
 	* "Format" selector: Text file/CSV and Excel table
 	* "Header" checkbox with tooltip "If checked, a header with column names will be inserted into the exported file. Otherwise, the data will be exported without a header"

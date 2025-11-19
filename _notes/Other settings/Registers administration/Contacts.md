@@ -91,13 +91,12 @@ When partner is being created - language and currency are automatically filled a
 * DeliveryPeriod
 * MinOrderTotal
 * Tolerance
-* Language
 * Currency
 * BusinessRegisterRegistration
 * Customer
 * Supplier
-* IC
-* VAT
+* IC (max 10 symbols)
+* VAT (max 15 symbols)
 * Name
 * Address
 

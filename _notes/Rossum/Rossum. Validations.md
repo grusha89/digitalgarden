@@ -8,6 +8,15 @@
 - Implement functionality to display differences in amounts for certain validations.
 - Split some validations into **warnings** and **alerts** as per the requirements outlined in [this spreadsheet](https://docs.google.com/spreadsheets/d/1fLaCOh_4LWHX1tFxDW2WW9oHu2zh97Oo4XIBw0OkWgI/edit?usp=sharing).
 
+
+---
+
+### Document is duplicate
+* Always shown as warning
+* Based on duplicate validation of wflow organization
+
+---
+
 ### Recapitulation
 
  1. Recapitulation vs Total base

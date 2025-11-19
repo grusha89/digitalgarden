@@ -56,13 +56,13 @@ The list of the columns:
 * Vehicle
 
 
-> [!NOTE] Fixed columns
-> There are several columns that can not be found in columns settings as they are fixed in their order and can not be moved around:
-> * VAT type (has sorting)
+> [!NOTE] Mandatory columns
+> There are several columns that are mandatory and read-only in columns settings for lines. Order of these columns can be changed but they can not be removed
+> * VAT type (has sorting) - is not presented for VAT free organization
 > * Amount (has sorting)
 > * Price per Unit (has sorting)
 > * Total amount (has sorting)
-> * Measure unit (only for Orders) (no sorting)
+> ~~* Measure unit (only for Orders) (no sorting)~~
 
 
 ==**VAT type==
