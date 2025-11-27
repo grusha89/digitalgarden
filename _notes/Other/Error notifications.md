@@ -1,4 +1,19 @@
 
+### Notifications UX
+
+[Embedded content](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FVYySf0qpOqkMGcCOlSqNQc%2F2025-Navigation%3Fnode-id%3D1831-14040%26t%3DOCf9mRw9kbMn1KjG-4 "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FVYySf0qpOqkMGcCOlSqNQc%2F2025-Navigation%3Fnode-id%3D1831-14040%26t%3DOCf9mRw9kbMn1KjG-4")
+
+
+1. Max.  quantity of messages is displayed at a time is 4. If a new error message appears, it covers the previous one.
+2. If the user hovers on an error message (or tap on mobile or tablet), all messages are displayed.
+3. Each error message has negative progress bar at the bottom. Once the progress bar completes, the message disappears.
+4. Each error message has copy button to copy the contain of the error including time stamp
+5. If the user hovers the mouse over any error message, none of the messages should disappear (reset the time and stop it until the user move the mouse out)
+
+
+Success message - 3 sec, then fade out
+Other messages - 7 sec with negative loading bar, then fadeout
+
 ### General
 
 Tips how to simulate the error notifications:

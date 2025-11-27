@@ -4,3 +4,4 @@ Wflow features that go as the feature flag:
 2. orders
 3. employee expenses
 4. automatic time stamps
+5. beta

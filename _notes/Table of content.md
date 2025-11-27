@@ -91,6 +91,9 @@ Notifications
 
 - [[Notifications]]
 
+wflow BI
+
+- [[wflow BI]]
 
 ### Settings 2
 

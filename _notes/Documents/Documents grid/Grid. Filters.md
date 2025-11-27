@@ -1,4 +1,5 @@
-
+Active filter is displayed on the grid as the chip. 
+Each chip can be closed via its cross button. When the chip is closed, the corresponding filter is canceled
 #### Simple filters
 * conditions selected within one group have OR attribute
 * conditions selected from different groups have AND attribute

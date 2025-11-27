@@ -84,6 +84,7 @@ Set receipt mining options
     - “wflow AI” box
         - wflow logo + name + radio button (when the radio button is true “Predicate billings” and “Custom properties” are not displayed
         - text “wflow AI extracts data from receipts using artificial intelligence”
+        - info box  "Using this feature may involve data processing outside the EU. The data provided is not used to train models"
     - Toggle “Extraction of items”
         - when the toggle is turned on Rossum extracts the lines
     - Toggle “Predicate billing codes”
