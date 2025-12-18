@@ -103,6 +103,7 @@
 > * Accounting rules and payment methods of incoming invoices are available for Orders
 > * PDP can be selected alone when VAT return line is empty
 > * PDP can not be selected when selected VAT return line is not assigned for PDP [[Accountant]] #VatReturnLines 
+> * Possible to edit fields for confirmed manual outgoing invoice
 > 
 
 

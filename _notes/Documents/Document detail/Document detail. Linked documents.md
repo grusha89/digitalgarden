@@ -15,8 +15,32 @@ Button  "+" opens dialog window "Link documents":
 		* Partner name
 		* Total amount
 		* Date of issue
+		* indicators if document is already linked and delivered in case of orders
+	* "Advanced search" button
 * "Link" button 
 	* is active when the required fields are filled
+
+
+ **Advanced search**
+ Dialog window "Search document" appears:
+* "Search" - filters by total amount, partner and document number
+* "Document kind" filter
+* "Invoice type" filter - appears when incoming or outgoing invoice is selected in "Document kind" filter
+* "IC","DIC" chips -
+	* are visible if corresponding fields are filled in
+	* not active by default
+	* when user clicks on them - they become active (IC/DIC number appears withing the chip) and filter launches
+* "cross" button to cancel all active filters (is not visible when no filter is used)
+* Table columns:
+	* Partner
+	* Total amount
+	* Currency
+	* Document number
+	* Document kind
+	* Document type
+	* Invoice type
+	* Creation date
+* Pagination [[Pagination]]
 
 
 ### Automatic pairing

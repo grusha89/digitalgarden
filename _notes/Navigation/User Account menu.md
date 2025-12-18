@@ -1,6 +1,15 @@
 This menu is placed on the bottom of the navigation context menu 
 To call the menu click on profile photo or initials of the user name
 
+### User's avatar
+Avatar upload is recognized by "photo camera" icon
+When the icon is clicked ->
+* "profile image" dialog window appears
+	* user's initials are instead of the image
+	* "Upload image" button
+	* when image is uploaded -> it's saved as avatar immediately (confirmation message appears)
+	* "Remove image" button appears
+
 When menu is opened:
 * User name + user's email are displayed
 

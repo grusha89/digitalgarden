@@ -47,3 +47,7 @@ It is possible to change the order of the custom exports by drag and drop
 	* "Date format" selector: dd.MM.yyyy, yyyyMMdd, yyyy-MM-dd
 
 It is possible to create or edit custom export via [[Grid. Exports]]
+
+### Fields in xls default export
+
+* Last action

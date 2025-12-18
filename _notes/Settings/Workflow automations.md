@@ -1,4 +1,7 @@
 
+https://www.figma.com/design/h9FdepwVIOJL0lqOa6MY10/Settings?node-id=931-15412&t=lwv6LvcUdX3gLKL5-1
+
+Deprecated
 https://www.figma.com/design/9L5eiV91azH3SQMkJamfwk/Automation?node-id=1348-11669&t=gkRCSkMvIr0O9Zyi-0
 
 ### The grid
@@ -44,22 +47,31 @@ Logic:
 ### Approval section
 
 - “Manual” is by default and read only. It changes to automatic as soon as approval path is selected.
-- Default flow status is displayed
-- Selector “Approval path: full text search works (not case sensitive, possible to search by any word, by last and the following letter)
-- Dynamic approval path is not displayed in the list
-- When plus button is clicked, dialog window of approval path creation appears
-- Created approval path via plus button, immediately appear in the selector
-- Conditions, operators and values are in the table below
-- Buttons “Bin” :  removes added condition
-- Button “Add condition”
-- Button “Or” adds further conditions + by default flow status
-- Kebab menu:
-	- Copy (copies the whole bunch of the conditions)
-	- Remove the bunch of conditions
-- The button “Assign approval path” adds settings for another approval path. It is possible to select the same approval path
-- Button “Cancel”
-- Button “Use”
-- Button "Close"
+- "Assign approval path" is displayed on the Approval section card. When the button is clicked
+	- Dialog window of conditions settings appears
+	- Description "Approval paths and automatic assignment conditions In case of conflict between approval path conditions, it is necessary to determine which conditions will have higher priority in automatic assignment. Set priority by ordering the approval paths in the list below. Determine the priority by sorting the approval paths in the list below in descending order from highest priority to lowest."
+	- The list of created conditions displayed by the names of conditions set or by the name of approval path (if conditions set is nameless)
+	- "Select approval path" button
+	-  Kebab menu:
+		- Copy (copies the whole bunch of the conditions)
+		- Remove the bunch of conditions
+		- Button “Cancel”
+		- Button “Use”
+		- Button "Close"
+* Conditions set for one approval path:
+	* "Condition name" input
+		* impossible to create duplicate name
+		* can be empty - then approval path name will be displayed instead of the name in the list of conditions sets
+	- Default flow status is displayed
+	- Selector “Approval path: full text search works (not case sensitive, possible to search by any word, by last and the following letter)
+	- Dynamic approval path is not displayed in the list
+	- When plus button is clicked, dialog window of approval path creation appears
+	- Created approval path via plus button, immediately appear in the selector
+	- Conditions, operators and values are in the table below
+	- Buttons “Bin” :  removes added condition
+	- Button “Add condition”
+	- Button “Or” adds further conditions + by default flow status
+	
 
 ---
 
@@ -90,6 +102,11 @@ Logic:
 - When “further action” is clicked, the list of action appears:
 - When action are carried out they do not influence on the flow status of the document:
 	- for example in general scenario when user adds lines to the NEW DOCUMENT - document changes its status to "Filled". But with automatization to replace the lines - document will stay in status "new"
+
+Each section has: 
+"Condition name" input
+		* impossible to create duplicate name
+		* can be empty - then approval path name will be displayed instead of the name in the list of conditions sets
 
 ##### Update registers on the headers
 

@@ -64,6 +64,10 @@ Line section is the same as in [[Document detail. Lines]]
 
 The principle of work is the same as in [[Document detail. Accounting fields]]
 
+> [!NOTE] When document is confirmed
+> It's possible to edit accounting fields on headers when document is confirmed as well as via bulk actions "Update accounting fields"
+
+
 ##### Optional fields
 
 The principle of work is the same as in [[Document detail. Custom properties]]
